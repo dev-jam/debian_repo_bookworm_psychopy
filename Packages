@@ -356,6 +356,42 @@ Description: Javascript for refined palates: a Python 3 to ES6 Javascript
     :align: left
     :alt: tests coverage
 
+Package: python3-proto-plus
+Source: proto-plus
+Version: 1.22.1-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 143
+Depends: python3-protobuf, python3:any
+Filename: ./python3-proto-plus_1.22.1-1_all.deb
+Size: 25936
+MD5sum: 7c0015b26b5d15425a0d51b32d8e2ccf
+SHA1: 5c83c468f01845ec12a8bc8f874762fffa87e7b2
+SHA256: 23a1413afc990d6a597f35f58c93fb0dd8117bed88dbb33dd6940a2eab406061
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/proto-plus-python.git
+Description: Beautiful, Pythonic protocol buffers.
+ Proto Plus for Python
+ =====================
+ .
+ |pypi| |release level| |docs|
+ .
+     Beautiful, Pythonic protocol buffers.
+ .
+ This is a wrapper around `protocol buffers`_. Protocol buffers is a
+ specification format for APIs, such as those inside Google.
+ This library provides protocol buffer message classes and objects that
+ largely behave like native Python types.
+ .
+ .. _protocol buffers: https://developers.google.com/protocol-buffers/
+ .
+ .
+ Documentation
+ -------------
+ .
+ `Documentation`_ is available on Read the Docs.
+
 Package: python3-python-bidi
 Source: python-bidi
 Version: 0.4.2-1
