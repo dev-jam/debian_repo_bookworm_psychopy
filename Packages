@@ -70,6 +70,42 @@ Description: Reconstruct Arabic sentences to be used in applications that
  – or a library – that doesn’t support Arabic you’re pretty likely to end up
  with something that looks like this:
 
+Package: python3-dukpy
+Source: dukpy
+Version: 0.2.3-1
+Architecture: amd64
+Maintainer: Alessandro Molina <alessandro.molina@axant.it>
+Installed-Size: 6060
+Depends: python3 (<< 3.11), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-dukpy_0.2.3-1_amd64.deb
+Size: 934428
+MD5sum: 2e494474b323f66d5f4751c3fb0da284
+SHA1: b5953afee47de84f8d1215556b30da2fba29cf58
+SHA256: 494c3e1f3ecdc8749cd9130c35f65d05aaf3b8ca908fe43e66846bbf5c8688a7
+Section: python
+Priority: optional
+Homepage: https://github.com/amol-/dukpy
+Description: Simple JavaScript interpreter for Python
+ dukpy
+ =====
+ .
+ .. image:: https://img.shields.io/travis/amol-/dukpy/master.svg?label=Linux%20build%20%40%20Travis%20CI
+     :target: https://travis-ci.org/amol-/dukpy
+ .
+ .. image:: https://img.shields.io/appveyor/ci/amol-/dukpy/master.svg?label=Windows%20build%20%40%20Appveyor
+     :target: https://ci.appveyor.com/project/amol-/dukpy
+ .
+ .. image:: https://coveralls.io/repos/amol-/dukpy/badge.png?branch=master
+     :target: https://coveralls.io/r/amol-/dukpy?branch=master
+ .
+ .. image:: https://img.shields.io/pypi/v/dukpy.svg
+    :target: https://pypi.org/p/dukpy
+ .
+ .
+ DukPy is a simple javascript interpreter for Python built on top of
+ duktape engine **without any external dependency**.
+ It comes with a bunch of common transpilers built-in for convenience:
+
 Package: python3-esprima
 Source: esprima
 Version: 4.0.1-1
