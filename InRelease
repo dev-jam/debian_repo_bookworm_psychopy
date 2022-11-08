@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 08 Nov 2022 23:44:29 +0000
+MD5Sum:
+ 476c29951dfb13cd16dee4f22b9d317b            15124 Packages
+ cda08695e41010a1847772a4a8fdaf53             5464 Packages.gz
+ 1efa57a3d558335fb1148f84f45ba96b               38 Release
+SHA1:
+ ab7587c7111effd2a56bc4d17b934d3f78ea3d21            15124 Packages
+ c6bb27f9cff0525e8ee977ed72c3088cd945c231             5464 Packages.gz
+ af1ee916a6f34704acc1ba8f9b76e25a13b8e0a7               38 Release
+SHA256:
+ 78728a2f00ad82f25693ecabf47e2965cbb892f403048ae7a08d03ff4aa220a9            15124 Packages
+ 50effb781212fbbc625e2556ca3599a205b79eed68e4fc4d962723429eb202e2             5464 Packages.gz
+ 19555e9dadd353f0650c25ba061142b6492bedd989c5fcaf510941d6d4bb52a6               38 Release
+SHA512:
+ cfaf60e50d9c05ebae7ef4622b4b1dba87232688ca1a00a22c7423fe201001175f160ca4d6947a3d8bf8deb6a4470aff4ee6b5f5d602e392f373ea4fb64a0a3b            15124 Packages
+ afb3f768872018f9ea0f6f9826a980501b1de859ac83cfb7650acb1404a449d19b2254cc3061f3921b5b33e473af8dc61c81760b445735a6165296543d80ec17             5464 Packages.gz
+ 6d8f0384557747bf3d992928c336c35cb17ade2746629dd39de6de0ce6cf3e5768cda86c97aa4aac3cf6e458dafa95e19f93e4d475ef044f8dea699f6c8de24c               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmNq6d4UHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuySmCQ/9FAq7En+wfTQ6Bptsm2+4xJyzTNCS
+pd8mcTEdhtcjw6k1iFa30ImKjIUpmKV5fEqYiAum+ChRgBMWAZ828QOdk+TNesfT
+TjNe6GNiVrN2DYvP9ZyQQjnNAvrRoU6vPaFFkDfuo6gRLoCwTmNXrmxOmRkFObIg
+3vA6LHkm7VCR+mjaQ8dBTY6pqxdNKtRV131GPgqrdZXhHavqAgAvWcGYS7CbzB5N
+j6sZbJlmM8wafSThAmMpZZP5y6TPgmkKJiudIkcZJErpFl/199rPcq0XAzkyFvKQ
+5FImA64Av8Phi3vMpfW4xO4+iLs7ZsHn22KITpqHCoXTW6tuR/HVmT4XuQO9csGs
+Nc7UCpo4olyuvGmMhcCC7mKte0iw3yF2gd0fX822/Xe/uYfxkc1MApZOFSEI6VMJ
+SsNS3Wjd5okbl2S6Wr7CTJLVNpW6Oz3MDZ9/zfeKUY5RjeURxaVDjAa3IkEz4z9g
+Kq0PkatFzCdqMPlGTrKDW7fv0JrQ1wcojjbgGphlHUFoxSv2SfZHdMYo5XVqr3Og
+6L3WHyA37+eAjqAmzFbKMTKQYZqyGbdLdoXy36zc8eoxokrE5tC8Ub97xRqeQCPB
+SZLcWNx0Z4iox32hy6UQnFKo6rPxcdeCYCYCKCy7EsCNM0phw+R8MhRrmrqgccGx
+vOe189Cty6Fju74=
+=wflc
+-----END PGP SIGNATURE-----

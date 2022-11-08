@@ -1,0 +1,375 @@
+Package: psychopy
+Version: 2022.2.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 28791
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-wxgtk4.0, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./psychopy_2022.2.4-1_all.deb
+Size: 10410400
+MD5sum: 65a996c81e73b2febc618d233e658190
+SHA1: 579d046d7de918f6b176b1bf351f84a161ed69d4
+SHA256: db524aaea7b7636bf96dd4e46820023c0a49a72e1462b468d27573a56a470579
+Section: python
+Priority: optional
+Homepage: https://www.psychopy.org/
+Description: Psychology experiment software in Python
+ # PsychoPy
+ .
+ [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+ .
+ PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
+ .
+ * precise enough for psychophysics
+ * easy enough for teaching
+ * flexible enough for everything else
+ * able to run experiments in a local Python script or online in JavaScript
+ .
+ To meet these goals PsychoPy provides a choice of interface - you can use a
+ simple graphical user interface called Builder, or write your experiments in
+ Python code. The entire application and library are written in Python and is
+ platform independent.
+ .
+ There is a range of documentation at:
+ .
+ * [PsychoPy Homepage](https://www.psychopy.org)
+
+Package: python3-arabic-reshaper
+Source: arabic-reshaper
+Version: 2.1.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 118
+Depends: python3-future, python3:any
+Filename: ./python3-arabic-reshaper_2.1.4-1_all.deb
+Size: 16104
+MD5sum: 2c287f9ebc73d2d6972f60e7ec995e2c
+SHA1: 030849a2d06df8e14d3ccf357fa855682c33cd8d
+SHA256: 3ab915111a44ad01b89358b4691bc25f7d68a4fd8104447ce0816f0f74f9d471
+Section: python
+Priority: optional
+Homepage: https://github.com/mpcabd/python-arabic-reshaper/
+Description: Reconstruct Arabic sentences to be used in applications that
+ ## Python Arabic Reshaper
+ .
+ [![Build Status](https://app.travis-ci.com/mpcabd/python-arabic-reshaper.svg?branch=master)](https://app.travis-ci.com/mpcabd/python-arabic-reshaper)
+ .
+ Reconstruct Arabic sentences to be used in applications that don't support
+ Arabic script.
+ .
+ Works with Python 2.x and 3.x
+ .
+ ## Description
+ .
+ Arabic script is very special with two essential features:
+ .
+ 1. It is written from right to left.
+ 2. The characters change shape according to their surrounding characters.
+ .
+ So when you try to print text written in Arabic script in an application
+ – or a library – that doesn’t support Arabic you’re pretty likely to end up
+ with something that looks like this:
+
+Package: python3-esprima
+Source: esprima
+Version: 4.0.1-1
+Architecture: all
+Maintainer: German M. Bravo (Kronuz) <german.mb@gmail.com>
+Installed-Size: 294
+Depends: python3:any
+Filename: ./python3-esprima_4.0.1-1_all.deb
+Size: 37048
+MD5sum: d8205994e61ccd1564e1d15c11c23f93
+SHA1: 43d3598577aae3ca148b7bd2c475f9240653c9da
+SHA256: 28f095ef08cd1d83f7d4cb136184a16a2ac72101acb1610cb396c0b37302e5c7
+Section: python
+Priority: optional
+Homepage: https://github.com/Kronuz/esprima-python
+Description: ECMAScript parsing infrastructure for multipurpose analysis
+
+Package: python3-glfw
+Source: glfw
+Version: 2.5.5-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 164
+Depends: python3:any
+Filename: ./python3-glfw_2.5.5-1_all.deb
+Size: 25184
+MD5sum: a21f51d01aba5e99c2b2732cc9a9587d
+SHA1: 07a903b922a36324ac55eafc59db57bdd1205f32
+SHA256: e1151efe0cb52523072bd0e44fa2bc58b539cd03021cb4197af5d444507907d0
+Section: python
+Priority: optional
+Homepage: https://github.com/FlorianRhiem/pyGLFW
+Description: A ctypes-based wrapper for GLFW3.
+ pyGLFW
+ ======
+ .
+ This module provides Python bindings for `GLFW <http://www.glfw.org/>`__
+ (on GitHub: `glfw/glfw <http://github.com/glfw/glfw>`__). It is a
+ ``ctypes`` wrapper which keeps very close to the original GLFW API,
+ except for:
+ .
+ -  function names use the pythonic ``words_with_underscores`` notation
+    instead of ``camelCase``
+ -  ``GLFW_`` and ``glfw`` prefixes have been removed, as their function
+    is replaced by the module namespace
+    (you can use ``from glfw.GLFW import *`` if you prefer the naming
+    convention used by the GLFW C API)
+ -  structs have been replaced with Python sequences and namedtuples
+ -  functions like ``glfwGetMonitors`` return a list instead of a pointer
+    and an object count
+ -  Gamma ramps use floats between 0.0 and 1.0 instead of unsigned shorts
+    (use ``glfw.NORMALIZE_GAMMA_RAMPS=False`` to disable this)
+ -  GLFW errors are reported as ``glfw.GLFWError`` warnings if no error
+
+Package: python3-google-api-core
+Source: google-api-core
+Version: 2.10.2-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 396
+Depends: python3-google-auth, python3-googleapis-common-protos, python3-protobuf, python3-requests, python3:any
+Filename: ./python3-google-api-core_2.10.2-1_all.deb
+Size: 59136
+MD5sum: 7d54bd477d04f7041e008c98780c1ee9
+SHA1: ecfb9ec14158c496492a60d733d43d43e6e2cf17
+SHA256: 3924229b4bfce5e879786062c2b97da93be24237167173089ec1790de0db8c6b
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-core
+Description: Google API client core library
+ Core Library for Google Client Libraries
+ ========================================
+ .
+ |pypi| |versions|
+ .
+ This library is not meant to stand-alone. Instead it defines
+ common helpers used by all Google API clients. For more information, see the
+ `documentation`_.
+ .
+ .. |pypi| image:: https://img.shields.io/pypi/v/google-api_core.svg
+    :target: https://pypi.org/project/google-api_core/
+ .. |versions| image:: https://img.shields.io/pypi/pyversions/google-api_core.svg
+    :target: https://pypi.org/project/google-api_core/
+ .. _documentation: https://googleapis.dev/python/google-api-core/latest
+ .
+ .
+ Supported Python Versions
+ -------------------------
+ Python >= 3.7
+
+Package: python3-google-cloud
+Source: google-cloud
+Version: 0.34.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 17
+Filename: ./python3-google-cloud_0.34.0-1_all.deb
+Size: 2668
+MD5sum: 89c84651e805112688b93e3c9c4e21c2
+SHA1: 1178c57f4d40015e27db244ccf235c48f90df643
+SHA256: 6e8b4259eb9e68cb1693f5b0b4c7e4ac6d21e6f0666b9835243be9537fca688d
+Section: python
+Priority: optional
+Homepage: https://github.com/GoogleCloudPlatform/google-cloud-python
+Description: API Client library for Google Cloud
+ Google Cloud Python Client
+ ==========================
+ .
+     Python idiomatic client for `Google Cloud Platform`_ services.
+ .
+     WARNING: The google-cloud Python package is deprecated. On June 18, 2018,
+     this package will no longer install any other packages. Please install the
+     `product-specific google-cloud-* packages`__ needed for your application.
+ .
+ .. __: https://github.com/GoogleCloudPlatform/google-cloud-python#google-cloud-python-client
+ .
+ .. _Google Cloud Platform: https://cloud.google.com/
+ .
+ |pypi| |circleci| |appveyor| |coverage| |versions|
+ .
+ -  `Homepage`_
+ -  `API Documentation`_
+ -  `Read The Docs Documentation`_
+ .
+ .. _Homepage: https://googlecloudplatform.github.io/google-cloud-python/
+
+Package: python3-google-cloud-speech
+Source: google-cloud-speech
+Version: 2.16.2-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1372
+Depends: python3-google-api-core, python3-proto-plus, python3-protobuf, python3:any
+Filename: ./python3-google-cloud-speech_2.16.2-1_all.deb
+Size: 57900
+MD5sum: 8c6599e5b86b9d5cfe110f980a60fa26
+SHA1: 8679a6bb6f0029b7f2060ef635dc9b2a223dbe0b
+SHA256: 57feab65bd770631279e0d6ed4bcc4b7f4285b5e6e56d0ca977eb5db9e8d203f
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-speech
+Description: Google Cloud Speech API client library
+ Python Client for Cloud Speech API
+ ==================================
+ .
+ |stable| |pypi| |versions|
+ .
+ `Cloud Speech API`_: enables easy integration of Google speech recognition technologies into developer applications. Send audio and receive a text transcription from the Speech-to-Text API service.
+ .
+ - `Client Library Documentation`_
+ - `Product Documentation`_
+ .
+ .. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
+    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#stability-levels
+ .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-speech.svg
+    :target: https://pypi.org/project/google-cloud-speech/
+ .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-speech.svg
+    :target: https://pypi.org/project/google-cloud-speech/
+ .. _Cloud Speech API: https://cloud.google.com/speech-to-text/docs/
+ .. _Client Library Documentation: https://cloud.google.com/python/docs/reference/speech/latest
+ .. _Product Documentation:  https://cloud.google.com/speech-to-text/docs/
+
+Package: python3-googleapis-common-protos
+Source: googleapis-common-protos
+Version: 1.56.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 606
+Depends: python3-protobuf, python3:any
+Filename: ./python3-googleapis-common-protos_1.56.4-1_all.deb
+Size: 86516
+MD5sum: 361e0a6a4e2327f76d61ccc493ad3d4d
+SHA1: edb066a7b99c988c9733d866d4906395b66c9290
+SHA256: 28806e3432dfeb0ebbaab905a1bba8ded49c236df202adeea7ace45db8536c4a
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-common-protos
+Description: Common protobufs used in Google APIs
+ .
+ # Google APIs common protos
+ .
+ [![pypi](https://img.shields.io/pypi/v/googleapis-common-protos.svg)](https://pypi.org/project/googleapis-common-protos/)
+ .
+ .
+ googleapis-common-protos contains the python classes generated from the common
+ protos in the [googleapis/api-common-protos](https://github.com/googleapis/api-common-protos) repository.
+
+Package: python3-imageio-ffmpeg
+Source: imageio-ffmpeg
+Version: 0.4.7-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 60
+Depends: python3:any
+Filename: ./python3-imageio-ffmpeg_0.4.7-1_all.deb
+Size: 13768
+MD5sum: 0823cd020e2f17dac4d239b7ce06778c
+SHA1: dab92fe8a034e7d63216bb42ad6cb23774f24162
+SHA256: 30c9c457676fb8c2fdc276c411232cca042169b6d59ee41746762fb8e774684d
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio-ffmpeg
+Description: FFMPEG wrapper for Python
+ FFMPEG wrapper for Python.
+ .
+ Note that the platform-specific wheels contain the binary executable
+ of ffmpeg, which makes this package around 60 MiB in size.
+ I guess that's the cost for being able to read/write video files.
+ .
+ For Linux users: the above is not the case when installing via your
+ Linux package manager (if that is possible), because this package would
+ simply depend on ffmpeg in that case.
+
+Package: python3-javascripthon
+Source: javascripthon
+Version: 0.12-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1752
+Depends: python3-dukpy, python3-pkg-resources, python3:any
+Filename: ./python3-javascripthon_0.12-1_all.deb
+Size: 323676
+MD5sum: 8ad038f659fedaf9acec29adb9ff3fa0
+SHA1: c71d3d126fa6737465b1e13d3078aec213d5746f
+SHA256: a21072d9de145f271f182b132735d81e71fb5dd2922513e392bbdeb4b25daed2
+Section: python
+Priority: optional
+Homepage: https://github.com/azazel75/metapensiero.pj
+Description: Javascript for refined palates: a Python 3 to ES6 Javascript
+ .. -*- coding: utf-8 -*-
+ .. :Project:  metapensiero.pj -- readme
+ .. :Created:  mar 01 mar 2016 15:52:36 CET
+ .. :Author:   Alberto Berti <alberto@metapensiero.it>
+ .. :License:  GNU General Public License version 3 or later
+ ..
+ .
+ ======================================================
+ JavaScripthon: a Python 3 to ES6 JavaScript translator
+ ======================================================
+ .
+ .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/pipeline.svg
+    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
+    :align: left
+    :alt: tests status
+ .
+ .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/coverage.svg
+    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
+    :align: left
+    :alt: tests coverage
+
+Package: python3-python-bidi
+Source: python-bidi
+Version: 0.4.2-1
+Architecture: all
+Maintainer: Meir Kriheli <mkriheli@gmail.com>
+Installed-Size: 74
+Depends: python3-six, python3:any
+Filename: ./python3-python-bidi_0.4.2-1_all.deb
+Size: 14272
+MD5sum: 2b256f26e5f6aee2daa2a420e6f1f880
+SHA1: 6685093a6f60515b4b3630ce5d6b5f525be68a14
+SHA256: ca286b1720174416d9c57e3b82dd1854663b22c6977b1c1137923edadd6c8360
+Section: python
+Priority: optional
+Homepage: https://github.com/MeirKriheli/python-bidi
+Description: Pure python implementation of the BiDi layout algorithm
+ ===============================
+ Python BiDi
+ ===============================
+ .
+ .. image:: https://badge.fury.io/py/python-bidi.png
+     :target: http://badge.fury.io/py/python-bidi
+ .
+ .. image:: https://travis-ci.org/MeirKriheli/python-bidi.png?branch=master
+         :target: https://travis-ci.org/MeirKriheli/python-bidi
+ .
+ `Bi-directional`_ (BiDi) layout implementation in pure python
+ .
+ `Package documentation`_
+ .
+ .. _Bi-directional: http://en.wikipedia.org/wiki/Bi-directional_text
+ .. _Package documentation: http://python-bidi.readthedocs.org/en/latest/
+ .
+ API
+ ----
+
+Package: python3-speechrecognition
+Version: 0:3.8.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 43677
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-speechrecognition_3.8.1-1~w2d0_all.deb
+Size: 27523556
+MD5sum: 5649185ea3be3a6fa2d7ddde3e3c7937
+SHA1: c6dfe792e486905efb157aa73e351553834213e7
+SHA256: 679d3ab3d540015830ee011892abd9b162b5e3f21c7853274bb787cde54a4925
+Section: python
+Priority: optional
+Homepage: https://github.com/Uberi/speech_recognition#readme
+Description: Library for performing speech recognition, with support for several engines and APIs, online and offline.
+ This package was generated by wheel2deb v0.5.8
+
