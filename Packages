@@ -162,12 +162,12 @@ Version: 0:4.3.5-1~w2d0
 Architecture: amd64
 Maintainer: wheel2deb <wheel2deb@upciti.com>
 Installed-Size: 46382
-Depends: python3 (<< 3.2), python3 (>= 3.1~), python3:any
+Depends: python3 (>= 3.5~), python3:any
 Filename: ./python3-ffpyplayer_4.3.5-1~w2d0_amd64.deb
-Size: 14355748
-MD5sum: b566fce52457685c3b2dab8fc31c21ab
-SHA1: af7c01347b419fda3024a88f13ff33e389b05136
-SHA256: b1d8281cf5cf417bd2a69c5103760b9943125553bcddffe7106dabc86fe182df
+Size: 14355740
+MD5sum: 73d63e2b7414ac0093082bc3a380b8b9
+SHA1: bc85f89d2df0c31fc9a3f38a982daa4e1cc0d985
+SHA256: 6dcc30b13d06d62b5da4679cdc10b859cd32bb45d960f6fc3aa951e652d648d4
 Section: python
 Priority: optional
 Homepage: https://matham.github.io/ffpyplayer/
