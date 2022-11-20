@@ -320,6 +320,43 @@ Description: Status proto mapping for gRPC
  .
  Depends on the `grpcio` package, available from PyPI via `pip install grpcio`.
 
+Package: python3-imageio
+Source: imageio
+Version: 2.22.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 4527
+Depends: python3-numpy, python3-pil, python3:any
+Filename: ./python3-imageio_2.22.4-1_all.deb
+Size: 3171260
+MD5sum: a5d27421bf92de00fcff1a2311612e1e
+SHA1: 075a88c7d60a05d926f2a676aad7337122f2fe92
+SHA256: c5f5e9f4902f51bfd793823b4274c8192a6bd0a94b26bb01675f1d84b7b2eeeb
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio
+Description: Library for reading and writing a wide range of image, video
+ .
+ .. image:: https://github.com/imageio/imageio/workflows/CI/badge.svg
+     :target: https://github.com/imageio/imageio/actions
+ .
+ .
+ Imageio is a Python library that provides an easy interface to read and
+ write a wide range of image data, including animated images, volumetric
+ data, and scientific formats. It is cross-platform, runs on Python 3.5+,
+ and is easy to install.
+ .
+ Main website: https://imageio.readthedocs.io/
+ .
+ .
+ Release notes: https://github.com/imageio/imageio/blob/master/CHANGELOG.md
+ .
+ Example:
+ .
+ .. code-block:: python
+ .
+     >>> import imageio
+
 Package: python3-imageio-ffmpeg
 Source: imageio-ffmpeg
 Version: 0.4.7-1
