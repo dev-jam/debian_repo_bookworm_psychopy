@@ -33,42 +33,6 @@ Description: environment for creating psychology stimuli in Python
   - Easy interfaces to joysticks, mice, sound cards etc. via PyGame
   - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
 
-Package: python3-arabic-reshaper
-Source: arabic-reshaper
-Version: 2.1.4-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 115
-Depends: python3-future, python3:any
-Filename: ./python3-arabic-reshaper_2.1.4-1_all.deb
-Size: 15956
-MD5sum: 7b162f90f2d40948bd748d381470ab63
-SHA1: 238d1d2bfa6634244291a08a90581c5baa7da6e7
-SHA256: 63cc06797d3181135d05f9a969d920e05b2d5db78cde3447fb647b0bb520733b
-Section: python
-Priority: optional
-Homepage: https://github.com/mpcabd/python-arabic-reshaper/
-Description: Reconstruct Arabic sentences to be used in applications that
- ## Python Arabic Reshaper
- .
- [![Build Status](https://app.travis-ci.com/mpcabd/python-arabic-reshaper.svg?branch=master)](https://app.travis-ci.com/mpcabd/python-arabic-reshaper)
- .
- Reconstruct Arabic sentences to be used in applications that don't support
- Arabic script.
- .
- Works with Python 2.x and 3.x
- .
- ## Description
- .
- Arabic script is very special with two essential features:
- .
- 1. It is written from right to left.
- 2. The characters change shape according to their surrounding characters.
- .
- So when you try to print text written in Arabic script in an application
- – or a library – that doesn’t support Arabic you’re pretty likely to end up
- with something that looks like this:
-
 Package: python3-dukpy
 Source: dukpy
 Version: 0.2.3-1
