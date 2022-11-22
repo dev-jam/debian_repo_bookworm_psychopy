@@ -1,15 +1,15 @@
 Package: psychopy
-Version: 2022.2.4-6
+Version: 2022.2.4-9
 Architecture: all
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
 Installed-Size: 24760
-Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-gevent, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-pocketsphinx, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-questplus, python3-requests, python3-scipy, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-ujson, python3-vlc, python3-willow, python3-xlib, python3-xlrd, python3:any, python3-opengl, python3-lxml, python3-configobj, fonts-dejavu-core, fonts-open-sans, python3-bidi, python3-serial, python3-yaml, python3-zmq, python3-opencv, python3-gitlab, python3-git, python3-freetype, python3-parallel, python3-wxgtk4.0, python3-websocket, python3-markdown-it
-Recommends: python3-pil, libxxf86vm1, ipython3, python3-pyxid, python3-tobii-research
-Filename: ./psychopy_2022.2.4-6_all.deb
-Size: 11874292
-MD5sum: 0b2a54a658c027b64cbc779d81f0b076
-SHA1: c4ccdd31fdcc406bf9f6af09f5668ddff07456e2
-SHA256: a4650aba9e892ef9a4a0b62c2f28fecd06b2ef20ce03313f35ba9960e7c4724f
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-gevent, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-questplus, python3-requests, python3-scipy, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-ujson, python3-vlc, python3-xlib, python3-xlrd, python3:any, python3-opengl, python3-lxml, python3-configobj, fonts-dejavu-core, fonts-open-sans, python3-bidi, python3-serial, python3-yaml, python3-zmq, python3-opencv, python3-gitlab, python3-git, python3-freetype, python3-pocketsphinx, python3-parallel, python3-wxgtk4.0, python3-websocket, python3-markdown-it
+Recommends: libxxf86vm1, ipython3, python3-pyxid, python3-tobii-research
+Filename: ./psychopy_2022.2.4-9_all.deb
+Size: 11874296
+MD5sum: 37eacb7c7f020f5a6eff3c2b1b10c850
+SHA1: 5d12fce204c68f875e79bf2e4f5a25ef38e066cd
+SHA256: 97d5404fec3758c3d9310da825ba6752b30b5e6c3a1d77229c9bfd90b34ac36d
 Section: science
 Priority: optional
 Homepage: https://www.psychopy.org
@@ -34,40 +34,39 @@ Description: environment for creating psychology stimuli in Python
   - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
 
 Package: python3-dukpy
-Source: dukpy
-Version: 0.2.3-1
+Version: 0:0.2.3-1~w2d0
 Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 5724
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14)
-Filename: ./python3-dukpy_0.2.3-1_amd64.deb
-Size: 934248
-MD5sum: 4169656ebe9b991fb2d9eafc52bc7b50
-SHA1: cb98dcfa30a3b0fef6924594a50be28924813c4c
-SHA256: a96c08ea1f17304ed78f6dfbb9e6cdd4d9ff9a49cadec8e4b469008245fca3d3
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 5738
+Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
+Filename: ./python3-dukpy_0.2.3-1~w2d0_amd64.deb
+Size: 939580
+MD5sum: 29715acec2daad1b77c4f4bee61c3f4c
+SHA1: 18468bdb62c1b34f81924b51d75e0a909896f684
+SHA256: 44a17e3e99259e87ea56b07520fe8546b2ffcdf0fe5f4e7c958561eb96d15095
 Section: python
 Priority: optional
 Homepage: https://github.com/amol-/dukpy
 Description: Simple JavaScript interpreter for Python
- dukpy
- =====
- .
- .. image:: https://img.shields.io/travis/amol-/dukpy/master.svg?label=Linux%20build%20%40%20Travis%20CI
-     :target: https://travis-ci.org/amol-/dukpy
- .
- .. image:: https://img.shields.io/appveyor/ci/amol-/dukpy/master.svg?label=Windows%20build%20%40%20Appveyor
-     :target: https://ci.appveyor.com/project/amol-/dukpy
- .
- .. image:: https://coveralls.io/repos/amol-/dukpy/badge.png?branch=master
-     :target: https://coveralls.io/r/amol-/dukpy?branch=master
- .
- .. image:: https://img.shields.io/pypi/v/dukpy.svg
-    :target: https://pypi.org/p/dukpy
- .
- .
- DukPy is a simple javascript interpreter for Python built on top of
- duktape engine **without any external dependency**.
- It comes with a bunch of common transpilers built-in for convenience:
+ This package was generated by wheel2deb v0
+
+Package: python3-dukpy-dbgsym
+Source: python3-dukpy
+Version: 0:0.2.3-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 659
+Depends: python3-dukpy (= 0:0.2.3-1~w2d0)
+Filename: ./python3-dukpy-dbgsym_0.2.3-1~w2d0_amd64.deb
+Size: 632916
+MD5sum: fa44b6a9a11be26cb9882f96b2d1f8ad
+SHA1: c15375cb67f999bec60589b1a184a6d44f9de64e
+SHA256: 98eae793e23b7b30361a4c7d365c4653712a65ffea46bc3c941848b39d091fc6
+Section: debug
+Priority: optional
+Description: debug symbols for python3-dukpy
+Build-Ids: 7927c5cc72a3c8e0091cb4a56e1122b8047a4015
 
 Package: python3-egi-pynetstation
 Version: 0:0.0.0~rc1-1~w2d0
@@ -87,21 +86,21 @@ Description: Magstim-EGI EEG amplifier NetStation API
  This package was generated by wheel2deb v0
 
 Package: python3-esprima
-Source: esprima
-Version: 4.0.1-1
+Version: 0:4.0.1-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 294
-Depends: python3:any
-Filename: ./python3-esprima_4.0.1-1_all.deb
-Size: 36984
-MD5sum: a11934d97541b0b850242b7cc4f98299
-SHA1: 80769832ed731f27670eac64515447607666cce9
-SHA256: 2158f077c794be8d15f7b8868e5a8c895327bdc21c0c8923170fc8fd206345ce
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 297
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-esprima_4.0.1-1~w2d0_all.deb
+Size: 37736
+MD5sum: 1e377dc0a0789907a9c3f47c37ee6735
+SHA1: 51a9dd62aa67880376776d07b8706d10be02f97c
+SHA256: 44d304604ce53fcff251bc28fd98d4b4c9e030109ab8e5c3780f887cb3579a63
 Section: python
 Priority: optional
 Homepage: https://github.com/Kronuz/esprima-python
-Description: ECMAScript parsing infrastructure for multipurpose analysis
+Description: ECMAScript parsing infrastructure for multipurpose analysis in Python
+ This package was generated by wheel2deb v0
 
 Package: python3-ffpyplayer
 Version: 0:4.3.5-1~w2d0
@@ -120,305 +119,228 @@ Homepage: https://matham.github.io/ffpyplayer/
 Description: A cython implementation of an ffmpeg based player.
  This package was generated by wheel2deb v0
 
+Package: python3-ffpyplayer-dbgsym
+Source: python3-ffpyplayer
+Version: 0:4.3.5-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 11208
+Depends: python3-ffpyplayer (= 0:4.3.5-1~w2d0)
+Filename: ./python3-ffpyplayer-dbgsym_4.3.5-1~w2d0_amd64.deb
+Size: 8887384
+MD5sum: c8df5582c4f80f665ba85dd21f3c9b2f
+SHA1: b75b0c65a4b353800ca4e98208e6c43feb1f146b
+SHA256: 31815b6c383600c5ec6a94fac862e3b687285ba848591de4a6b7fdfd1e87f292
+Section: debug
+Priority: optional
+Description: debug symbols for python3-ffpyplayer
+Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 25d3d976bb93781bc0209ca04f72abef457a087e 28d68bba9b07cf08fd6f0df24c74d1ff61dcff72 2c5e481e5d706f1c3b321a6635e9137f1f09ea42 342cd573adf9bdd27b856d289c4551223489900e 35d7ec06fbcaf217ad596412781c348a64b7cb03 3a52c7e373e1adbe6cbd56cc94255795a5471cc9 516c93c0921322e2945857ffbdd458672206390a 52b239464c4e8b1cf332eee8502e3286a0fc4e3f 617339640b2a85fce47b7663a0830b8fd4be3d60 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 70d1574a063e7ac3e5a91daf3061d346e30783e1 79eb13ed251c9502598a1e1286ae44af1be03dbd 86e37218d1e47909927a7b813a66729e381254f0 8dc34d2cc29fb5251e0a02719144e9c37bf57f31 975c4eed7a2ddd56b89b288c69bfce5ec00dc67e a951c8a58e82fc2b34ba41da2ecdfd30de1e978a af6f4ad07ad9bedd1fefb12db6e459069be1bc07 be12797da805f4cc8a2cb592286fb3feba319ec4 c02cb03de7ee866426350bfe4dd746e01da99fa3 dae9c80c9a20f987d7e4aa9b060b21e0ca13c86e dbbb103dab857cd9a7495ec982b07595be0ab381 e68c350f1165d14646a7c6d8d0dcdf58d85d89e7 f65b5d1991e3abd5432696f7953d2d96fffcfdb1
+
 Package: python3-glfw
-Source: glfw
-Version: 2.5.5-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 163
+Version: 0:2.5.5-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 765
 Depends: python3:any
-Filename: ./python3-glfw_2.5.5-1_all.deb
-Size: 25148
-MD5sum: 58464fe33bf7c54fc8a5a94e36ca767d
-SHA1: 0df5fe7f1c5a08f01f1c9982c3acd591f5b88e8c
-SHA256: 659a253f0b9904778f038e0925038de13b7bfdc6db6878d947ad06ea54f5cb3c
+Filename: ./python3-glfw_2.5.5-1~w2d0_amd64.deb
+Size: 117420
+MD5sum: 5d8d297a596ebe20e0c20d614f26b39d
+SHA1: 63b189972f45b4f654773d810a97f4b15d411ac8
+SHA256: 665bd01fad78203bfdbd8fcada30c0eda41f8fc7345aee64a040b317add2f3e7
 Section: python
 Priority: optional
 Homepage: https://github.com/FlorianRhiem/pyGLFW
 Description: A ctypes-based wrapper for GLFW3.
- pyGLFW
- ======
- .
- This module provides Python bindings for `GLFW <http://www.glfw.org/>`__
- (on GitHub: `glfw/glfw <http://github.com/glfw/glfw>`__). It is a
- ``ctypes`` wrapper which keeps very close to the original GLFW API,
- except for:
- .
- -  function names use the pythonic ``words_with_underscores`` notation
-    instead of ``camelCase``
- -  ``GLFW_`` and ``glfw`` prefixes have been removed, as their function
-    is replaced by the module namespace
-    (you can use ``from glfw.GLFW import *`` if you prefer the naming
-    convention used by the GLFW C API)
- -  structs have been replaced with Python sequences and namedtuples
- -  functions like ``glfwGetMonitors`` return a list instead of a pointer
-    and an object count
- -  Gamma ramps use floats between 0.0 and 1.0 instead of unsigned shorts
-    (use ``glfw.NORMALIZE_GAMMA_RAMPS=False`` to disable this)
- -  GLFW errors are reported as ``glfw.GLFWError`` warnings if no error
+ This package was generated by wheel2deb v0
+
+Package: python3-glfw-dbgsym
+Source: python3-glfw
+Version: 0:2.5.5-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 79
+Depends: python3-glfw (= 0:2.5.5-1~w2d0)
+Filename: ./python3-glfw-dbgsym_2.5.5-1~w2d0_amd64.deb
+Size: 13992
+MD5sum: f1a1dffae568cb78a5afe50e8e8179fc
+SHA1: 61a9d7e34fc85bcc7f98ae2a90634d5af299d836
+SHA256: 9d4c54355f5b34b86808a08a6f3489dd092325fc0ba8ee1476fb5cd4d0da3693
+Section: debug
+Priority: optional
+Description: debug symbols for python3-glfw
+Build-Ids: 9ebf55df42b176f3108832f310ca2095fc70ed52 e6895878a7353bd9b2f93a9cbd5516e47d4cdb95
 
 Package: python3-google-api-core
-Source: google-api-core
-Version: 2.10.2-1
+Version: 0:2.10.2-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 395
-Depends: python3-google-auth, python3-googleapis-common-protos, python3-protobuf, python3-requests, python3:any
-Filename: ./python3-google-api-core_2.10.2-1_all.deb
-Size: 59104
-MD5sum: 47d1240e8bafe62a2dd9ba989de613e3
-SHA1: 1d1e5fa7f58b114a148b5a66c1e9310a99876b9c
-SHA256: 23840f297bcce348c14b904b1aa82b71d6078196ecb089379fad3bab3ba81b94
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 423
+Depends: python3 (>= 3.7~), python3-google-auth (<< 3.0dev), python3-google-auth (>= 1.25.0), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3:any
+Filename: ./python3-google-api-core_2.10.2-1~w2d0_all.deb
+Size: 65024
+MD5sum: 94e1bcb29f957064998cf08911600278
+SHA1: 6007c76814688693f2d5faeef81b3a1d70b23c13
+SHA256: 3698d9edd00e460b8a70966ff38614d9a859568c171aad0679bfa3f6708718a0
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-core
 Description: Google API client core library
- Core Library for Google Client Libraries
- ========================================
- .
- |pypi| |versions|
- .
- This library is not meant to stand-alone. Instead it defines
- common helpers used by all Google API clients. For more information, see the
- `documentation`_.
- .
- .. |pypi| image:: https://img.shields.io/pypi/v/google-api_core.svg
-    :target: https://pypi.org/project/google-api_core/
- .. |versions| image:: https://img.shields.io/pypi/pyversions/google-api_core.svg
-    :target: https://pypi.org/project/google-api_core/
- .. _documentation: https://googleapis.dev/python/google-api-core/latest
- .
- .
- Supported Python Versions
- -------------------------
- Python >= 3.7
+ This package was generated by wheel2deb v0
+
+Package: python3-google-auth
+Version: 0:2.14.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 640
+Depends: python3 (>= 3.6~), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3:any
+Filename: ./python3-google-auth_2.14.1-1~w2d0_all.deb
+Size: 89348
+MD5sum: 76af6bf34737e3ae370d6c377b8c3259
+SHA1: 735ae947be38b8b87aa5dd393de6ec8f351a991a
+SHA256: a1d3a1c9a6234a6ca6b9fd606a2c09ae35bd5edb954fd9169f4a8227ac37fe62
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/google-auth-library-python
+Description: Google Authentication Library
+ This package was generated by wheel2deb v0
 
 Package: python3-google-cloud
-Source: google-cloud
-Version: 0.34.0-1
+Version: 0:0.34.0-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 17
-Filename: ./python3-google-cloud_0.34.0-1_all.deb
-Size: 2680
-MD5sum: ad438cbb75de9dfb41d50ffb3d43e29e
-SHA1: 56e814b3370ffcca1601e82bad6ea4d3d27d1eff
-SHA256: 9df697adf66a2accf75a07fb5fb2fd771f63a300695bf4db324e990fd07efb20
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 19
+Depends: python3 (>= 3.4~), python3:any
+Filename: ./python3-google-cloud_0.34.0-1~w2d0_all.deb
+Size: 2752
+MD5sum: a01323265014722827de62f22643caa0
+SHA1: e799982852965148e5ce85e1bed000e090132a84
+SHA256: 90a3087e87e38a143e16251a5141ff58ead3146bfd12e1eb02cd20fbe654ca87
 Section: python
 Priority: optional
 Homepage: https://github.com/GoogleCloudPlatform/google-cloud-python
 Description: API Client library for Google Cloud
- Google Cloud Python Client
- ==========================
- .
-     Python idiomatic client for `Google Cloud Platform`_ services.
- .
-     WARNING: The google-cloud Python package is deprecated. On June 18, 2018,
-     this package will no longer install any other packages. Please install the
-     `product-specific google-cloud-* packages`__ needed for your application.
- .
- .. __: https://github.com/GoogleCloudPlatform/google-cloud-python#google-cloud-python-client
- .
- .. _Google Cloud Platform: https://cloud.google.com/
- .
- |pypi| |circleci| |appveyor| |coverage| |versions|
- .
- -  `Homepage`_
- -  `API Documentation`_
- -  `Read The Docs Documentation`_
- .
- .. _Homepage: https://googlecloudplatform.github.io/google-cloud-python/
+ This package was generated by wheel2deb v0
 
 Package: python3-google-cloud-speech
-Source: google-cloud-speech
-Version: 2.16.2-1
+Version: 0:2.16.2-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1371
-Depends: python3-google-api-core, python3-proto-plus, python3-protobuf, python3:any
-Filename: ./python3-google-cloud-speech_2.16.2-1_all.deb
-Size: 57840
-MD5sum: 8140504c2b18802163ad647e725d40b7
-SHA1: 3e8395be88911971208f551254db033fd37a65d6
-SHA256: d78c565d488ae40fc32aff0f9b7f2de365dca4b414d179ff7089851f8ea139c8
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1401
+Depends: python3 (>= 3.7~), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.32.0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.0), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
+Filename: ./python3-google-cloud-speech_2.16.2-1~w2d0_all.deb
+Size: 64152
+MD5sum: 5f32152ae7335d4126ee81fc1d945bb7
+SHA1: 8bc97a260ca1703ad72da9c2e1d1d280f3eefa4e
+SHA256: c5d21e1b346c9fd0dc50d1ed2bfbe81fc50a087aedfdeb5406694ebd701c9b05
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-speech
 Description: Google Cloud Speech API client library
- Python Client for Cloud Speech API
- ==================================
- .
- |stable| |pypi| |versions|
- .
- `Cloud Speech API`_: enables easy integration of Google speech recognition technologies into developer applications. Send audio and receive a text transcription from the Speech-to-Text API service.
- .
- - `Client Library Documentation`_
- - `Product Documentation`_
- .
- .. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
-    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#stability-levels
- .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-speech.svg
-    :target: https://pypi.org/project/google-cloud-speech/
- .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-speech.svg
-    :target: https://pypi.org/project/google-cloud-speech/
- .. _Cloud Speech API: https://cloud.google.com/speech-to-text/docs/
- .. _Client Library Documentation: https://cloud.google.com/python/docs/reference/speech/latest
- .. _Product Documentation:  https://cloud.google.com/speech-to-text/docs/
+ This package was generated by wheel2deb v0
 
 Package: python3-googleapis-common-protos
-Source: googleapis-common-protos
-Version: 1.57.0-1
+Version: 0:1.57.0-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 632
-Depends: python3-protobuf, python3:any
-Filename: ./python3-googleapis-common-protos_1.57.0-1_all.deb
-Size: 91088
-MD5sum: ae9d2b87167e127c9b0afb76bc76774f
-SHA1: 3a12277e33ad78f07d63d44d7307707ddb75d557
-SHA256: 17d9b662216a67d363c8d8aacf05f6446f2771a977d03db82dda64112e14ff07
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 667
+Depends: python3 (>= 3.7~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
+Filename: ./python3-googleapis-common-protos_1.57.0-1~w2d0_all.deb
+Size: 100264
+MD5sum: 706230f34e2bb0051f1aa9f611a84a7c
+SHA1: f9da4f5ff28de65c1d7ab80919af8454739ed1e3
+SHA256: a2b75eb51d19e6e3dc2ea046ef03fa74662e024792e4a0cc736b393b2c0b8151
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-common-protos
 Description: Common protobufs used in Google APIs
- .
- # Google APIs common protos
- .
- [![pypi](https://img.shields.io/pypi/v/googleapis-common-protos.svg)](https://pypi.org/project/googleapis-common-protos/)
- .
- .
- googleapis-common-protos contains the python classes generated from the common
- protos in the [googleapis/api-common-protos](https://github.com/googleapis/api-common-protos) repository.
+ This package was generated by wheel2deb v0
+
+Package: python3-grpcio
+Version: 0:1.51.0-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 11300
+Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
+Filename: ./python3-grpcio_1.51.0-1~w2d0_amd64.deb
+Size: 3633660
+MD5sum: 054c96b11d4bdce6198e1538f104da35
+SHA1: b4de5f2e47912881592050439477d699cf00d9da
+SHA256: 5075ddc03dd61ba7a90331ce621ba70e205af0b1245ec8065c844b8c28015c34
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: HTTP/2-based RPC framework
+ This package was generated by wheel2deb v0
 
 Package: python3-grpcio-status
-Source: grpcio-status
-Version: 1.50.0-1
+Version: 0:1.51.0-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 25
-Depends: python3-googleapis-common-protos, python3-grpcio, python3-protobuf, python3:any
-Filename: ./python3-grpcio-status_1.50.0-1_all.deb
-Size: 3940
-MD5sum: 948f1ba88b8e74e716079a2465bbea7e
-SHA1: 7a64d42f2d7e7c279f4c810b7548aba2524b8507
-SHA256: f05f2be17d254bdba8d88f092b6681ac795d014c19d1035de8edfb56f338273b
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 26
+Depends: python3 (>= 3.4~), python3-googleapis-common-protos (>= 1.5.5), python3-grpcio (>= 1.51.0), python3-protobuf (>= 4.21.6), python3:any
+Filename: ./python3-grpcio-status_1.51.0-1~w2d0_all.deb
+Size: 4096
+MD5sum: 50203fc71d01d420fe0cf817d047edce
+SHA1: cd299150a6c0d1833509432fedec2dd05ea114b0
+SHA256: 58104929a0f4ccd9f1db46e081990e55719084a6cbae6de661d4c7a0d002bc48
 Section: python
 Priority: optional
 Homepage: https://grpc.io
 Description: Status proto mapping for gRPC
- gRPC Python Status Proto
- ===========================
- .
- Reference package for GRPC Python status proto mapping.
- .
- Supported Python Versions
- -------------------------
- Python >= 3.7
- .
- Dependencies
- ------------
- .
- Depends on the `grpcio` package, available from PyPI via `pip install grpcio`.
+ This package was generated by wheel2deb v0
 
 Package: python3-imageio
-Source: imageio
-Version: 2.22.4-1
+Version: 0:2.22.4-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4527
-Depends: python3-numpy, python3-pil, python3:any
-Filename: ./python3-imageio_2.22.4-1_all.deb
-Size: 3171260
-MD5sum: a5d27421bf92de00fcff1a2311612e1e
-SHA1: 075a88c7d60a05d926f2a676aad7337122f2fe92
-SHA256: c5f5e9f4902f51bfd793823b4274c8192a6bd0a94b26bb01675f1d84b7b2eeeb
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 4536
+Depends: python3 (>= 3.7~), python3-numpy, python3-willow (>= 8.3.2), python3:any
+Filename: ./python3-imageio_2.22.4-1~w2d0_all.deb
+Size: 3174068
+MD5sum: 69fd4fbec9f6034b20e47d6effa0efc2
+SHA1: 75f8ea3e2be15d20701e77afd84561ec99fac1f6
+SHA256: e602557a1656174d09f5ba86615d910a98cdbb27fc662cb0252a82c25a687c5e
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
-Description: Library for reading and writing a wide range of image, video
- .
- .. image:: https://github.com/imageio/imageio/workflows/CI/badge.svg
-     :target: https://github.com/imageio/imageio/actions
- .
- .
- Imageio is a Python library that provides an easy interface to read and
- write a wide range of image data, including animated images, volumetric
- data, and scientific formats. It is cross-platform, runs on Python 3.5+,
- and is easy to install.
- .
- Main website: https://imageio.readthedocs.io/
- .
- .
- Release notes: https://github.com/imageio/imageio/blob/master/CHANGELOG.md
- .
- Example:
- .
- .. code-block:: python
- .
-     >>> import imageio
+Description: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
+ This package was generated by wheel2deb v0
 
 Package: python3-imageio-ffmpeg
-Source: imageio-ffmpeg
-Version: 0.4.7-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 60
-Depends: python3:any
-Filename: ./python3-imageio-ffmpeg_0.4.7-1_all.deb
-Size: 13760
-MD5sum: 4494ac429db526600275bd22cdf4d551
-SHA1: 6357ec8e3d10713c0bd6dcc85b218412eeb85c19
-SHA256: 536137dec8392ef742696fc86f153b232ce424c2143102a33f15cff06d732118
+Version: 0:0.4.7-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 72145
+Depends: python3 (>= 3.5~), python3:any
+Filename: ./python3-imageio-ffmpeg_0.4.7-1~w2d0_amd64.deb
+Size: 19236140
+MD5sum: 8d79b502ca499b39e9336a5a9033cfa1
+SHA1: 0b38d2b9c22a831b17ce2522356a0b6d23622dee
+SHA256: 18e52bd4bb18554ebbf2dfef4ffed084b29998508c9c17450772635f1545d7e6
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio-ffmpeg
 Description: FFMPEG wrapper for Python
- FFMPEG wrapper for Python.
- .
- Note that the platform-specific wheels contain the binary executable
- of ffmpeg, which makes this package around 60 MiB in size.
- I guess that's the cost for being able to read/write video files.
- .
- For Linux users: the above is not the case when installing via your
- Linux package manager (if that is possible), because this package would
- simply depend on ffmpeg in that case.
+ This package was generated by wheel2deb v0
 
 Package: python3-javascripthon
-Source: javascripthon
-Version: 0.12-1
+Version: 0:0.12-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1740
-Depends: python3-pkg-resources, python3:any
-Filename: ./python3-javascripthon_0.12-1_all.deb
-Size: 323036
-MD5sum: b20a59d0ccb7e3a05e478c94401b82ed
-SHA1: 79c3e87fa0b82ced9fc942fe322e48b5b4c65bd2
-SHA256: fc4f0c0f0be8954e6cf684e7a77acf62823b87afa4f70d97149d58eb94888f77
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1815
+Depends: python3 (>= 3.7~), python3-dukpy, python3-setuptools, python3:any
+Filename: ./python3-javascripthon_0.12-1~w2d0_all.deb
+Size: 334612
+MD5sum: ea97fc9bc3759b4f95fb80ed3588cf4c
+SHA1: 0fe6ecde33fda3639214cefe77b684bd42f5dfc9
+SHA256: 657b1296ecb44678b1be6effb50a79ed80f751dd712e6aca0f40fb083b761a24
 Section: python
 Priority: optional
 Homepage: https://github.com/azazel75/metapensiero.pj
-Description: Javascript for refined palates: a Python 3 to ES6 Javascript
- .. -*- coding: utf-8 -*-
- .. :Project:  metapensiero.pj -- readme
- .. :Created:  mar 01 mar 2016 15:52:36 CET
- .. :Author:   Alberto Berti <alberto@metapensiero.it>
- .. :License:  GNU General Public License version 3 or later
- ..
- .
- ======================================================
- JavaScripthon: a Python 3 to ES6 JavaScript translator
- ======================================================
- .
- .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/pipeline.svg
-    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
-    :align: left
-    :alt: tests status
- .
- .. image:: https://gitlab.com/metapensiero/metapensiero.pj/badges/master/coverage.svg
-    :target: https://gitlab.com/metapensiero/metapensiero.pj/commits/master
-    :align: left
-    :alt: tests coverage
+Description: Javascript for refined palates: a Python 3 to ES6 Javascript translator
+ This package was generated by wheel2deb v0
 
 Package: python3-markdown-it-py
 Version: 0:2.1.0-1~w2d0
@@ -437,77 +359,55 @@ Description: Python port of markdown-it. Markdown parsing, done right!
  This package was generated by wheel2deb v0
 
 Package: python3-ntplib
-Source: ntplib
-Version: 0.4.0-1
+Version: 0:0.4.0-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 32
-Depends: python3:any
-Filename: ./python3-ntplib_0.4.0-1_all.deb
-Size: 7556
-MD5sum: 12e06677ba3b0d2106504b86326fa0ad
-SHA1: 9c0720a38938ca008f3a7ba47b7c1b308c21a035
-SHA256: 3531794704c7c925839dfdf2aee70189073f14b5f596a084208fc2cc6cbd3c9a
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 36
+Depends: python3 (>= 3.6~), python3:any
+Filename: ./python3-ntplib_0.4.0-1~w2d0_all.deb
+Size: 6860
+MD5sum: 773fd662baed408b38578faca0826a8d
+SHA1: 62726e852361440fdc614a44c6c4ce1a772ab894
+SHA256: 797f5b93e07601068f836d1b19d7c4313f06db9dda6a0ac8d3e7cadc68b9aa36
 Section: python
 Priority: optional
 Homepage: https://github.com/cf-natali/ntplib
 Description: Python NTP library
- .
- ntplib - Python NTP library
- ===========================
- .
- Description
- -----------
- .
- This module offers a simple interface to query NTP servers from Python.
- .
- It also provides utility functions to translate NTP fields values to text (mode,
- leap indicator...). Since it's pure Python, and only depends on core modules, it
- should work on any platform with a Python implementation.
- .
- Example
- -------
- .
- >>> import ntplib
- >>> from time import ctime
- >>> c = ntplib.NTPClient()
- >>> response = c.request('europe.pool.ntp.org', version=3)
+ This package was generated by wheel2deb v0
 
 Package: python3-proto-plus
-Source: proto-plus
-Version: 1.22.1-1
+Version: 0:1.22.1-1~w2d0
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 142
-Depends: python3-protobuf, python3:any
-Filename: ./python3-proto-plus_1.22.1-1_all.deb
-Size: 25924
-MD5sum: 528cb84dc398eb12a3cb36d8425088cf
-SHA1: 0a7bc12bd707fc49bd6e7aedb6252ede6221380c
-SHA256: ece92a53d7a5c5c08a5109ae577fa3a12e08ea6e700901ea960b6e1d26cd4fd3
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 168
+Depends: python3 (>= 3.6~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.0), python3:any
+Filename: ./python3-proto-plus_1.22.1-1~w2d0_all.deb
+Size: 30796
+MD5sum: 2d3651133989d11fd4fa9380038e7182
+SHA1: a841702b4c51d1baa88b53d7e74fd03cbcc83e28
+SHA256: 2e84b93941ad3937bbaa83324bf48df001ef3b8aae7ceac64e62b5a4efd4d24a
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/proto-plus-python.git
 Description: Beautiful, Pythonic protocol buffers.
- Proto Plus for Python
- =====================
- .
- |pypi| |release level| |docs|
- .
-     Beautiful, Pythonic protocol buffers.
- .
- This is a wrapper around `protocol buffers`_. Protocol buffers is a
- specification format for APIs, such as those inside Google.
- This library provides protocol buffer message classes and objects that
- largely behave like native Python types.
- .
- .. _protocol buffers: https://developers.google.com/protocol-buffers/
- .
- .
- Documentation
- -------------
- .
- `Documentation`_ is available on Read the Docs.
+ This package was generated by wheel2deb v0
+
+Package: python3-protobuf
+Version: 0:4.21.9-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1349
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-protobuf_4.21.9-1~w2d0_all.deb
+Size: 180332
+MD5sum: d3b79f7a1e8af350079bc2e452d8404c
+SHA1: 28624630cb35c935318a81462ad07d6d02415363
+SHA256: 0ae0f058fba13069b341d7dc801289474f558ffc6a7bc8bc7e31c561cee793ae
+Section: python
+Priority: optional
+Homepage: https://developers.google.com/protocol-buffers/
+Description: None
+ This package was generated by wheel2deb v0
 
 Package: python3-speechrecognition
 Version: 0:3.8.1-1~w2d0
