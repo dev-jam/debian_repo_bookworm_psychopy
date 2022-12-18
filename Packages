@@ -379,16 +379,16 @@ Description: Beautiful, Pythonic protocol buffers.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-protobuf
-Version: 0:4.21.11-1~w2d1
+Version: 0:4.21.12-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1349
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-protobuf_4.21.11-1~w2d1_all.deb
-Size: 180340
-MD5sum: b4cad3f5c1fe71a7b7473c8fea2e8081
-SHA1: 884846fdd477033aba54ddf32bd095f6c7facf01
-SHA256: a43ee51046898aa7f8f6766a26e3c93aec7275b39bacff29dd8b75c38be24e61
+Filename: ./python3-protobuf_4.21.12-1~w2d2_all.deb
+Size: 180336
+MD5sum: bd5e2c72cca248fa2f294aee437095f3
+SHA1: 317a26429200b389f7f703e04b5de6c3adaad454
+SHA256: 3985f35b058edc4afc5068dddfdcbc53d9344253f15a67e030461edfb0b8c981
 Section: python
 Priority: optional
 Homepage: https://developers.google.com/protocol-buffers/
