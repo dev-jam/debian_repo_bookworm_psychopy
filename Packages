@@ -243,16 +243,16 @@ Description: Google Cloud Speech API client library
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-googleapis-common-protos
-Version: 0:1.57.0-1~w2d1
+Version: 0:1.57.1-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 667
+Installed-Size: 668
 Depends: python3 (>= 3.7~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
-Filename: ./python3-googleapis-common-protos_1.57.0-1~w2d1_all.deb
-Size: 100292
-MD5sum: 57042f01df21e0d1f283cd4928fde6f8
-SHA1: 3cefd842cd3dd62d602c6b42bf1af87fdfd4e63d
-SHA256: 28e142b321c6c7649b69b7cc0482b86862d4e349219402ab085c1263d8eae33b
+Filename: ./python3-googleapis-common-protos_1.57.1-1~w2d2_all.deb
+Size: 100268
+MD5sum: 9ae323b8bd7aadc44b5e7f8a60eef6f2
+SHA1: 77a7e9b54f167be8880a463c00c4be27ea0d86d7
+SHA256: e4bd82be328791b5e89bd54454ee3bd9612b5a664f6f20879c6bd59aaad7b4e7
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-common-protos
