@@ -243,16 +243,16 @@ Description: Google Cloud Speech API client library
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-googleapis-common-protos
-Version: 0:1.57.1-1~w2d2
+Version: 0:1.58.0-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 668
+Installed-Size: 680
 Depends: python3 (>= 3.7~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
-Filename: ./python3-googleapis-common-protos_1.57.1-1~w2d2_all.deb
-Size: 100268
-MD5sum: 9ae323b8bd7aadc44b5e7f8a60eef6f2
-SHA1: 77a7e9b54f167be8880a463c00c4be27ea0d86d7
-SHA256: e4bd82be328791b5e89bd54454ee3bd9612b5a664f6f20879c6bd59aaad7b4e7
+Filename: ./python3-googleapis-common-protos_1.58.0-1~w2d2_all.deb
+Size: 101692
+MD5sum: b48169dbb9ebd9cb1c9d8baa17acdb94
+SHA1: 348c8915c35d3d2eece6b8d28d5df5291ff3ffef
+SHA256: a36c485b7c0403f8bace5c49b18b406b88d572665dd4e3b2bf57aad14a954fdb
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-api-common-protos
@@ -294,16 +294,16 @@ Description: Status proto mapping for gRPC
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.23.0-1~w2d2
+Version: 0:2.24.0-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4536
+Installed-Size: 4552
 Depends: python3 (>= 3.7~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.23.0-1~w2d2_all.deb
-Size: 3174256
-MD5sum: fb5a874a69bab3bf9a53011652004663
-SHA1: bb8d6e2e35dfa23725ce4950e65b4a3f640c63bd
-SHA256: b629fd66ab5ef4854b36f8d7b12c108543e203fdf7613c3b7eb8f33fa57ab211
+Filename: ./python3-imageio_2.24.0-1~w2d2_all.deb
+Size: 3175816
+MD5sum: a6098b62f98c31c4a8195a0534171acf
+SHA1: 0a5779eb7015e604c912d2be921fe37370d13258
+SHA256: f4543d1327843a4db23e3b8b027cbf523120f4d2d2fb09f91bacec61dee89e1a
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -311,16 +311,16 @@ Description: Library for reading and writing a wide range of image, video, scien
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio-ffmpeg
-Version: 0:0.4.7-1~w2d1
+Version: 0:0.4.8-1~w2d2
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 72145
 Depends: python3 (>= 3.5~), python3:any
-Filename: ./python3-imageio-ffmpeg_0.4.7-1~w2d1_amd64.deb
-Size: 19236176
-MD5sum: 2b4c611f768c06eba80e79a9d58ad9ab
-SHA1: 49beb546727a8bf197e91d0fdcc4be5b866f8776
-SHA256: 2b24530586a3085c5c1257e88ae1741a71e4ad5102c7eda18c4041e801778684
+Filename: ./python3-imageio-ffmpeg_0.4.8-1~w2d2_amd64.deb
+Size: 19233300
+MD5sum: 6b81510c1b51fbc3bcba51d8a37b0219
+SHA1: 734a649ed5423b7dba2b3f86e81754f97e425835
+SHA256: 2297a473652801b04d01cabc2efcf54197922ffafb7ea3bdec6fe869ca411849
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio-ffmpeg
@@ -362,16 +362,16 @@ Description: Python NTP library
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-proto-plus
-Version: 0:1.22.1-1~w2d1
+Version: 0:1.22.2-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 168
 Depends: python3 (>= 3.6~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.0), python3:any
-Filename: ./python3-proto-plus_1.22.1-1~w2d1_all.deb
-Size: 30824
-MD5sum: a145cb31b5e6fc8226ea8e345e57f844
-SHA1: 30215332d20954a974c1e2689bf08aed4b388f19
-SHA256: 0d317ab504a410261451169228cde7530afa3a7d051c190abd0b846c1da24d71
+Filename: ./python3-proto-plus_1.22.2-1~w2d2_all.deb
+Size: 30880
+MD5sum: cff707d135e327adfee7d2bb633bd63c
+SHA1: a8e0218bd2f7b6ac192a15407da258677fc8f394
+SHA256: 8a297464e325807ac0ed64f40e0375b46d1783995c6fcee8285389baaf8f6af1
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/proto-plus-python.git
