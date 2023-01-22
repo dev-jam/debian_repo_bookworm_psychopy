@@ -226,16 +226,16 @@ Description: API Client library for Google Cloud
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-google-cloud-speech
-Version: 0:2.16.2-1~w2d1
+Version: 0:2.17.0-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1401
-Depends: python3 (>= 3.7~), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.32.0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.0), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
-Filename: ./python3-google-cloud-speech_2.16.2-1~w2d1_all.deb
-Size: 64184
-MD5sum: 890b7e7b8acffd803f79e8890f105cce
-SHA1: 4d12f7d47c078ad1eb9c922d3511addb7a8d99a6
-SHA256: c232d971b140eb14e48f8f21bd35628f16457b6c7eaa125c374dbb8491ca8e15
+Installed-Size: 1437
+Depends: python3 (>= 3.7~), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.34.0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.0), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
+Filename: ./python3-google-cloud-speech_2.17.0-1~w2d2_all.deb
+Size: 63608
+MD5sum: d13c5ec5ddb91124a39d00d065cc6023
+SHA1: 89dff834a309d1bb5abaa2ffca51e3d1ff993045
+SHA256: 115f5bc6384b43e16c61aeaccbed008182bcb83fc2eb9c5a18871580944587f7
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-speech
