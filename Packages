@@ -226,16 +226,16 @@ Description: API Client library for Google Cloud
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-google-cloud-speech
-Version: 0:2.17.0-1~w2d2
+Version: 0:2.17.1-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1437
+Installed-Size: 1454
 Depends: python3 (>= 3.7~), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.34.0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.0), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
-Filename: ./python3-google-cloud-speech_2.17.0-1~w2d2_all.deb
-Size: 63608
-MD5sum: d13c5ec5ddb91124a39d00d065cc6023
-SHA1: 89dff834a309d1bb5abaa2ffca51e3d1ff993045
-SHA256: 115f5bc6384b43e16c61aeaccbed008182bcb83fc2eb9c5a18871580944587f7
+Filename: ./python3-google-cloud-speech_2.17.1-1~w2d2_all.deb
+Size: 65688
+MD5sum: e5ad62c32bad993501f3202c072fa969
+SHA1: 5b477288b2c610b26ffcc392def5430440bc6310
+SHA256: ab377932467d230e3058912afdb3dabce2de333870578af3b729bc299cd47dea
 Section: python
 Priority: optional
 Homepage: https://github.com/googleapis/python-speech
@@ -294,16 +294,16 @@ Description: Status proto mapping for gRPC
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.24.0-1~w2d2
+Version: 0:2.25.0-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4552
+Installed-Size: 4553
 Depends: python3 (>= 3.7~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.24.0-1~w2d2_all.deb
-Size: 3175816
-MD5sum: a6098b62f98c31c4a8195a0534171acf
-SHA1: 0a5779eb7015e604c912d2be921fe37370d13258
-SHA256: f4543d1327843a4db23e3b8b027cbf523120f4d2d2fb09f91bacec61dee89e1a
+Filename: ./python3-imageio_2.25.0-1~w2d2_all.deb
+Size: 3176100
+MD5sum: 303d0edd2bf755f2c7c8f36eca988246
+SHA1: 38ecb21746b5b09ddd149d754080db1c4122d4b2
+SHA256: e1a74b4ad972d0214e3fe72a5d495f30e366cdadffce05aac6a620d7c7d055a3
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
