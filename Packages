@@ -34,16 +34,16 @@ Description: environment for creating psychology stimuli in Python
   - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
 
 Package: python3-dukpy
-Version: 0:0.3.0-1~w2d1
+Version: 0:0.3.0-1~w2d3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 5892
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-dukpy_0.3.0-1~w2d1_amd64.deb
-Size: 993680
-MD5sum: 4498807ac6bf3cdb8ff9a3390da578b4
-SHA1: e0cc13bd2b11ebb3c226ee3dc1c1f26f38b671f0
-SHA256: 4361066e33a642661ef07377d9558f9d8cb6061dcce2113fd0670a2ebc34f80b
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-dukpy_0.3.0-1~w2d3_amd64.deb
+Size: 993824
+MD5sum: 6b52087f6eebb712b932c1a156b2d67a
+SHA1: 0e8a54f68f609a252d7c5fbe6d026f3d904cfa8c
+SHA256: 8fd6d538798312518095275e7ae252f407036cfe57cf5b2d1e605d749dd15e57
 Section: python
 Priority: optional
 Homepage: https://github.com/amol-/dukpy
@@ -52,21 +52,21 @@ Description: Simple JavaScript interpreter for Python
 
 Package: python3-dukpy-dbgsym
 Source: python3-dukpy
-Version: 0:0.3.0-1~w2d1
+Version: 0:0.3.0-1~w2d3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1171
-Depends: python3-dukpy (= 0:0.3.0-1~w2d1)
-Filename: ./python3-dukpy-dbgsym_0.3.0-1~w2d1_amd64.deb
-Size: 1131944
-MD5sum: 453716dc0407265a1b5f6b08cbbadbcf
-SHA1: 021bb26421a1fa00c41ea71933a742e1f1f6f5df
-SHA256: 2fc66dab0a986670daa3196a7f582167416778712bcc6d83918d157b8362076c
+Depends: python3-dukpy (= 0:0.3.0-1~w2d3)
+Filename: ./python3-dukpy-dbgsym_0.3.0-1~w2d3_amd64.deb
+Size: 1131876
+MD5sum: 044f8fe4ea596a3dad495ca17b6d1312
+SHA1: 0df9878103bd45851856db11767ab7a4135fc70f
+SHA256: 4579f84dc00c2586fc224e8899aab570e0fed87826e335fd26b37af8659ba2f4
 Section: debug
 Priority: optional
 Description: debug symbols for python3-dukpy
-Build-Ids: ccb57dd3ca39736c1e4c4cbce0f27081bfb2cd6c
+Build-Ids: aae52e6cb0fa281c8b834f4aee09a21cbb4782c0
 
 Package: python3-egi-pynetstation
 Version: 0:0.0.0~rc1-1~w2d1
@@ -103,16 +103,16 @@ Description: ECMAScript parsing infrastructure for multipurpose analysis in Pyth
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-ffpyplayer
-Version: 0:4.3.5-1~w2d1
+Version: 0:4.3.5-1~w2d3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 46382
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-ffpyplayer_4.3.5-1~w2d1_amd64.deb
-Size: 14355768
-MD5sum: 59ac7e7f8639a51c7c2a644a6510ee26
-SHA1: bc6d556a7481283e70a4bf6d966b20f9c72cae1a
-SHA256: 2f351b4b8a4fd34a592f88d7901f4022c8f8f297bf7e29233be5017885a91a66
+Installed-Size: 1728
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-ffpyplayer_4.3.5-1~w2d3_amd64.deb
+Size: 401124
+MD5sum: fdd08a445dde02ad267226133296945f
+SHA1: b45edf36d417dba13e9b8e95d7995a9d2f4d8524
+SHA256: 36dd4666591dab066a6951ba1d88fa63f99f66423261e5553e431c79b0ff23e1
 Section: python
 Priority: optional
 Homepage: https://matham.github.io/ffpyplayer/
@@ -121,21 +121,21 @@ Description: A cython implementation of an ffmpeg based player.
 
 Package: python3-ffpyplayer-dbgsym
 Source: python3-ffpyplayer
-Version: 0:4.3.5-1~w2d1
+Version: 0:4.3.5-1~w2d3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 11208
-Depends: python3-ffpyplayer (= 0:4.3.5-1~w2d1)
-Filename: ./python3-ffpyplayer-dbgsym_4.3.5-1~w2d1_amd64.deb
-Size: 8887388
-MD5sum: da4142c1a040164bdcd8fe1ef56a67b9
-SHA1: 57ae69ff90ced9180c94b2df0d06fb4c6dca1f84
-SHA256: bc20cc98454c3a30243ffcf27725dc94216dc0d997dfbbcdf00ecdfe14c97f23
+Installed-Size: 2351
+Depends: python3-ffpyplayer (= 0:4.3.5-1~w2d3)
+Filename: ./python3-ffpyplayer-dbgsym_4.3.5-1~w2d3_amd64.deb
+Size: 2143188
+MD5sum: 715de9620a52d8859d38a8414c174c01
+SHA1: b31bb9e32c11d6d0ecd8fe693f5233afc1aa1615
+SHA256: bac513f055168fba321398cf56e83c07a8ff0f4d5521daa91bbeafe7a306849f
 Section: debug
 Priority: optional
 Description: debug symbols for python3-ffpyplayer
-Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 25d3d976bb93781bc0209ca04f72abef457a087e 28d68bba9b07cf08fd6f0df24c74d1ff61dcff72 2c5e481e5d706f1c3b321a6635e9137f1f09ea42 342cd573adf9bdd27b856d289c4551223489900e 35d7ec06fbcaf217ad596412781c348a64b7cb03 3a52c7e373e1adbe6cbd56cc94255795a5471cc9 516c93c0921322e2945857ffbdd458672206390a 52b239464c4e8b1cf332eee8502e3286a0fc4e3f 617339640b2a85fce47b7663a0830b8fd4be3d60 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 70d1574a063e7ac3e5a91daf3061d346e30783e1 79eb13ed251c9502598a1e1286ae44af1be03dbd 86e37218d1e47909927a7b813a66729e381254f0 8dc34d2cc29fb5251e0a02719144e9c37bf57f31 975c4eed7a2ddd56b89b288c69bfce5ec00dc67e a951c8a58e82fc2b34ba41da2ecdfd30de1e978a af6f4ad07ad9bedd1fefb12db6e459069be1bc07 be12797da805f4cc8a2cb592286fb3feba319ec4 c02cb03de7ee866426350bfe4dd746e01da99fa3 dae9c80c9a20f987d7e4aa9b060b21e0ca13c86e dbbb103dab857cd9a7495ec982b07595be0ab381 e68c350f1165d14646a7c6d8d0dcdf58d85d89e7 f65b5d1991e3abd5432696f7953d2d96fffcfdb1
+Build-Ids: 01d5ebf4bfc2a3df569b2df0d0abd0cb369d6af2 3f7bfd3c2c7f254d85f781c502c15fb65bcfca2d 47c0b44e6c343248f7fc20f9497df7b74ca540c9 53b6352bcfce8756ce7849aada2ef2b35e7555d6 9ac88656db1731f4a145c5fcc3b39d2af5ba2406 b65e67a6cb9175b1a2b9393b4641717199de4584 b984b4bddcfe778cb7c919095fa953af156d85ba bdccf958d291c76a3e230bb8bafb9cd1ea6f0feb cf07375cdc3acc5d12c81b8db79cc9de0207b5b5 f6327f8949c7c72590fd7701331b6e8d4504e085
 
 Package: python3-glfw
 Source: glfw
@@ -328,16 +328,16 @@ Description: FFMPEG wrapper for Python
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-javascripthon
-Version: 0:0.12-1~w2d1
+Version: 0:0.12-1~w2d3
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1815
 Depends: python3 (>= 3.7~), python3-dukpy, python3-setuptools, python3:any
-Filename: ./python3-javascripthon_0.12-1~w2d1_all.deb
-Size: 334636
-MD5sum: f395707bcc99056043a0753798ced28d
-SHA1: 12859020639dbea4c951f75f6ff77c243c4f0895
-SHA256: 1c4b974f3676bc69ddc8f40a98f6cd94b10d362e69d18a9b101a58387345f5cf
+Filename: ./python3-javascripthon_0.12-1~w2d3_all.deb
+Size: 334640
+MD5sum: 0d13d7fbd299cef482cab7cffd5a1bc7
+SHA1: bad570aa10f7b277d1363da2e1ac4ebca2664b97
+SHA256: 00741802cd4f3416a5932e4d468c8085fb35d254d9d5f092c4d0749153035a82
 Section: python
 Priority: optional
 Homepage: https://github.com/azazel75/metapensiero.pj
