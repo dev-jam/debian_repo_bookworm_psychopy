@@ -1,60 +1,37 @@
 Package: psychopy
-Version: 2023.1.0-0~pypi2deb
+Version: 2022.2.4-9
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 25823
-Depends: python3-arabic-reshaper, python3-astunparse, python3-bidi, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-opencv, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pyglet, python3-pypi-search, python3-pyqt5, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-soundfile, python3-tables, python3-ujson, python3-vlc, python3-websocket, python3-wxgtk4.0, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: ./psychopy_2023.1.0-0~pypi2deb_all.deb
-Size: 12535384
-MD5sum: 4f0506e89b3641b9c347141ce856915b
-SHA1: f0b12459f60a8c288165d617818290e74989f1f0
-SHA256: e5b62247bb13b4fe95e5db0591a4bad6e1b87a9ae169dab1925de8af3663a740
-Section: python
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 24760
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-gevent, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-questplus, python3-requests, python3-scipy, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-ujson, python3-vlc, python3-xlib, python3-xlrd, python3:any, python3-opengl, python3-lxml, python3-configobj, fonts-dejavu-core, fonts-open-sans, python3-bidi, python3-serial, python3-yaml, python3-zmq, python3-opencv, python3-gitlab, python3-git, python3-freetype, python3-pocketsphinx, python3-parallel, python3-wxgtk4.0, python3-websocket, python3-markdown-it
+Recommends: libxxf86vm1, ipython3, python3-pyxid, python3-tobii-research
+Filename: ./psychopy_2022.2.4-9_all.deb
+Size: 11874296
+MD5sum: 37eacb7c7f020f5a6eff3c2b1b10c850
+SHA1: 5d12fce204c68f875e79bf2e4f5a25ef38e066cd
+SHA256: 97d5404fec3758c3d9310da825ba6752b30b5e6c3a1d77229c9bfd90b34ac36d
+Section: science
 Priority: optional
-Homepage: https://www.psychopy.org/
-Description: Psychology experiment software in Python
- # PsychoPy
+Homepage: https://www.psychopy.org
+Description: environment for creating psychology stimuli in Python
+ PsychoPy provides an environment for creating psychology stimuli
+ using Python scripting language.  It combines the graphical
+ strengths of OpenGL with easy Python syntax to give psychophysics
+ a free and simple stimulus presentation and control package.
  .
- [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
- [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+ The goal is to provide, for the busy scientist, tools to control
+ timing and windowing and a simple set of pre-packaged stimuli and
+ methods.  PsychoPy features
  .
- PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
- .
-  * precise enough for psychophysics
-  * easy enough for teaching
-  * flexible enough for everything else
-  * able to run experiments in a local Python script or online in JavaScript
- .
- To meet these goals PsychoPy provides a choice of interface - you can use a
- simple graphical user interface called Builder, or write your experiments in
- Python code. The entire application and library are written in Python and is
- platform independent.
- .
- There is a range of documentation at:
- .
-  * [PsychoPy Homepage](https://www.psychopy.org)
-  * [Youtube](https://www.youtube.com/playlist?list=PLFB5A1BE51964D587)
-  * The textbook, [Building Experiments in PsychoPy](https://uk.sagepub.com/en-gb/eur/building-experiments-in-psychopy/book253480)
-  * [The discourse user forum](https://discourse.psychopy.org)
- .
- ## Contributions
- .
- To contribute, please fork the repository, hack in a feature branch, and send a
- pull request.  For more, see [CONTRIBUTING.md](CONTRIBUTING.md)
- and the developers documentation at [https://www.psychopy.org/developers](https://psychopy.org/developers)
- .
- ## Code Status
- .
- [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/psychopy/psychopy.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/psychopy/psychopy/context:python)
- Dev branch tests: [![GH tests](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml/badge.svg?branch=dev)](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml?query=branch%3Adev)
- Release tests: [![GH tests](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml/badge.svg?branch=release)](https://github.com/psychopy/psychopy/actions/workflows/pytests.yaml?query=branch%3Arelease)
- .
- ## More information
- .
-  * Homepage: https://www.psychopy.org
-  * Forum: https://discourse.psychopy.org
-  * Issue tracker: https://github.com/psychopy/psychopy/issues
-  * Changelog: https://www.psychopy.org/changelog.html
+  - IDE GUI for coding in a powerful scripting language (Python)
+  - Builder GUI for rapid development of stimulation sequences
+  - Use of hardware-accelerated graphics (OpenGL)
+  - Integration with Spectrascan PR650 for easy monitor calibration
+  - Simple routines for staircase and constant stimuli experimental
+    methods as well as curve-fitting and bootstrapping
+  - Simple (or complex) GUIs via wxPython
+  - Easy interfaces to joysticks, mice, sound cards etc. via PyGame
+  - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
 
 Package: python3-dukpy
 Version: 0:0.3.0-1~w2d3
