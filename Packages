@@ -1,14 +1,14 @@
 Package: psychopy
-Version: 0:2023.1.2-3~w2d0
+Version: 0:2023.1.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 26140
+Installed-Size: 26146
 Depends: python3 (>= 3.6~), python3-arabic-reshaper, python3-astunparse, python3-bidi, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-freetype, python3-future, python3-gevent, python3-git, python3-gitlab, python3-imageio (>= 2.5), python3-imageio-ffmpeg, python3-javascripthon, python3-jedi (>= 0.16), python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-opencv, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pyglet (<< 1.6), python3-pypi-search, python3-pyqt5, python3-questplus (>= 2019.3), python3-requests, python3-scipy, python3-serial, python3-soundfile (>= 0.11.0), python3-tables, python3-ujson, python3-vlc (>= 3.0.12118), python3-websocket, python3-wxgtk4.0 (>= 4.1.1), python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
-Filename: ./psychopy_2023.1.2-3~w2d0_all.deb
-Size: 12624512
-MD5sum: ddbdef3e2aa5638dee35653282b2af22
-SHA1: 6e169455f5b355c3cb04ca7c4f7bc2872f380191
-SHA256: 06fb6e7d3af5eefb43773ea3f0992bb1022394e3ea95418f233936f437ff368f
+Filename: ./psychopy_2023.1.3-1~w2d0_all.deb
+Size: 12626088
+MD5sum: ee1d9b84bd5b81797bdcd4f37cb2e0c9
+SHA1: 5e6b2c15c40fe8d5abe169b719b425afbf1846ab
+SHA256: 3c4ffa58bcff187e6ae06fdaa8751fcd052d8ffb87eee31e407787ff4117acae
 Section: python
 Priority: optional
 Homepage: https://www.psychopy.org/
