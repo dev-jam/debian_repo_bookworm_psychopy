@@ -300,3 +300,75 @@ Homepage: https://github.com/asadmoosvi/pypi-search
 Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-titta
+Source: titta
+Version: 2.0.0rc7-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 179
+Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
+Filename: ./python3-titta_2.0.0rc7-1_all.deb
+Size: 30308
+MD5sum: 8220e758adfab2422af56954b76684ae
+SHA1: d8e65e72751ce694fb3acc4269c7c5e1506bc139
+SHA256: 804cab1e7673993a6eba1799ead13d2ef88aa09863713e98fe696c1f3a2f85a4
+Section: python
+Priority: optional
+Homepage: https://github.com/marcus-nystrom/Titta
+Description: Titta is a toolbox for using eye trackers from Tobii with Py
+ Titta is a toolbox for using eye trackers from Tobii Pro AB with Python,
+ specifically offering integration with [PsychoPy](https://www.psychopy.org/). A Matlab version
+ that integrates with PsychToolbox is also available from
+ https://github.com/dcnieho/Titta. For a similar toolbox for SMI eye trackers, please see www.github.com/marcus-nystrom/SMITE.
+ .
+ Cite as:
+ [Niehorster, D.C., Andersson, R. & Nystrom, M. (2020). Titta: A toolbox for creating PsychToolbox and Psychopy experiments with Tobii eye trackers. Behavior Research Methods. doi: 10.3758/s13428-020-01358-8](https://doi.org/10.3758/s13428-020-01358-8)
+ .
+ For questions, bug reports or to check for updates, please visit
+ https://github.com/marcus-nystrom/Titta.
+ .
+ To minimize the risk of missing samples, the current repository uses TittaPy (`pip install TittaPy`), a [C++ wrapper](https://github.com/dcnieho/Titta/tree/master/SDK_wrapper/TittaPy) around the Tobii SDK, to pull samples made available from the eye tracker.
+ .
+ .
+ ## To get started
+ `pip install titta` (Currently does not work. Still waiting for Titta to be registered at PyPi. Pip install wheel [see Releases] or clone repository instead.)
+ .
+ or
+ .
+ `python -m pip install titta`
+
+Package: python3-tittapy
+Version: 0:1.0.0-3~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 10062
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any
+Filename: ./python3-tittapy_1.0.0-3~w2d0_amd64.deb
+Size: 3275524
+MD5sum: 57878bc310c7bea44924e4609555e678
+SHA1: 8ba05596bac8448a82fda5f39600289f4abff0fc
+SHA256: 1d09e40ec62bde759d5b749755cc57632c58258a456b1f8ff5e277c29dc33191
+Section: python
+Priority: optional
+Homepage: https://github.com/dcnieho/Titta
+Description: Interface to Tobii eye trackers using Tobii Pro SDK
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-tittapy-dbgsym
+Source: python3-tittapy
+Version: 0:1.0.0-3~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 4018
+Depends: python3-tittapy (= 0:1.0.0-3~w2d0)
+Filename: ./python3-tittapy-dbgsym_1.0.0-3~w2d0_amd64.deb
+Size: 3250544
+MD5sum: 0f3473cf4d25e6151c8bbdeca684aaa9
+SHA1: cfb4cba443bbaeeefd2bd7a168b938131e6b1d16
+SHA256: 70daf9c2beacb0fcdb6cfa1ee8b5f1e1f0260003b8b1260e3b0d81865dcee929
+Section: debug
+Priority: optional
+Description: debug symbols for python3-tittapy
+Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 9ae8f7ff9060b6121b4c82e784b37bc0141dd1f4
+
