@@ -119,6 +119,23 @@ Priority: optional
 Description: debug symbols for python3-ffpyplayer
 Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 04f3ced693c697435018dfeb20e6c6e841b9c3ce 12aa0df334820cf91a6b49b8ee9170d657083455 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 1411d5f222a03519c761649f67a65bac8ad93e74 1b4cb3cf0637d8a3eb08c34dbe5e41b6d68a1b18 1d9611cb90296946c9688e5d98fbbc321c9cccc9 35d7ec06fbcaf217ad596412781c348a64b7cb03 47e37f1c7bfd0ef11d004957ef91bd6977f20f14 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 6ff302d4efec991d33c9152ff1dbdfbec30b2e9d 739c31c80525ffec5912965fa840dcf219cad8f4 77bc4c252509b6840e87f92fb61acb0a87d22795 86e37218d1e47909927a7b813a66729e381254f0 a410d84d27250e9de501ed358366b2ad60c039e2 a86509734d454a3dc11c2e85de81651738a4d367 ad73e83192694c10a549978208c762beefccdf0a b53b1799fefc760432fdbfe33e27398c90c96231 b53c46d9568e434a4e01371ef7d1909e386d4239 b860f3c0aac25578ea29702f4ee7185e0bd797ff b8b6d8b8b06ad8c2732524393e6b964c23f3173e be210cd06e7c4198a85913988f4bbdd4af003786 dbbb103dab857cd9a7495ec982b07595be0ab381 ecfcbe0835dbf31d716423d4a154c1fdd524f445 f65b5d1991e3abd5432696f7953d2d96fffcfdb1 fe6ee2e908a9d947ec23bcbc55cea9163f67286d
 
+Package: python3-i2mc
+Version: 0:2.2.2-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 99
+Depends: python3-matplotlib, python3-numpy, python3-pandas, python3-scipy, python3:any
+Filename: ./python3-i2mc_2.2.2-1~w2d0_all.deb
+Size: 21160
+MD5sum: 42a6f6195311e346398efc2c2b770ae6
+SHA1: 83266d0e02e98216845b0f316a3ad961d4f12f44
+SHA256: 4b05d1204c9a12a622d1cc8a3e161792f7abd6c86aeb54b0c9ab96bc6a0d44c4
+Section: python
+Priority: optional
+Homepage: https://github.com/dcnieho/I2MC_Python
+Description: Noise-robust fixation classification (I2MC).
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-imageio
 Version: 0:2.31.1-3~w2d0
 Architecture: all
