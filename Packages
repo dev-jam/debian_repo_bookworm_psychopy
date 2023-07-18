@@ -318,41 +318,21 @@ Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
-Source: titta
-Version: 2.0.0rc8-1
+Version: 0:2.0.0~rc8-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 180
+Installed-Size: 210
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
-Filename: ./python3-titta_2.0.0rc8-1_all.deb
-Size: 30360
-MD5sum: e12b737470afe2bc05b63bcbc1e1c01b
-SHA1: 5840131b3bc65a36ff5ef593e88d45bc018e17fe
-SHA256: 0b4f7be95b831f66c5bd8203b4270f206e24da810ccc98992d3025bb19c33bbe
+Filename: ./python3-titta_2.0.0~rc8-1~w2d0_all.deb
+Size: 34704
+MD5sum: 2010dedca467fa623ee040b2fafef077
+SHA1: f0ed8356facf0722e0b70bca5826d672fb10951b
+SHA256: f0ee22d40904d86a78b5794a1ff9d663b32b05bb4bd59552bd9cf96fc9cd91be
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
-Description: Titta is a toolbox for using eye trackers from Tobii with Py
- Titta is a toolbox for using eye trackers from Tobii Pro AB with Python,
- specifically offering integration with [PsychoPy](https://www.psychopy.org/). A Matlab version
- that integrates with PsychToolbox is also available from
- https://github.com/dcnieho/Titta. For a similar toolbox for SMI eye trackers, please see www.github.com/marcus-nystrom/SMITE.
- .
- Cite as:
- [Niehorster, D.C., Andersson, R. & Nystrom, M. (2020). Titta: A toolbox for creating PsychToolbox and Psychopy experiments with Tobii eye trackers. Behavior Research Methods. doi: 10.3758/s13428-020-01358-8](https://doi.org/10.3758/s13428-020-01358-8)
- .
- For questions, bug reports or to check for updates, please visit
- https://github.com/marcus-nystrom/Titta.
- .
- To minimize the risk of missing samples, the current repository uses TittaPy (`pip install TittaPy`), a [C++ wrapper](https://github.com/dcnieho/Titta/tree/master/SDK_wrapper/TittaPy) around the Tobii SDK, to pull samples made available from the eye tracker.
- .
- .
- ## To get started
- `pip install titta` (Currently does not work. Still waiting for Titta to be registered at PyPi. Pip install wheel [see Releases] or clone repository instead.)
- .
- or
- .
- `python -m pip install titta`
+Description: Titta is a toolbox for using eye trackers from Tobii with Python, specifically offering integration with PsychoPy.
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
 Version: 0:1.0.0-3~w2d0
