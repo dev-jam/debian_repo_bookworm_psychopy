@@ -319,16 +319,16 @@ Description: Get Information on Python Packages From PyPI
 
 Package: python3-titta
 Source: titta
-Version: 2.0.0rc7-1
+Version: 2.0.0rc8-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 179
+Installed-Size: 180
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
-Filename: ./python3-titta_2.0.0rc7-1_all.deb
-Size: 30308
-MD5sum: 8220e758adfab2422af56954b76684ae
-SHA1: d8e65e72751ce694fb3acc4269c7c5e1506bc139
-SHA256: 804cab1e7673993a6eba1799ead13d2ef88aa09863713e98fe696c1f3a2f85a4
+Filename: ./python3-titta_2.0.0rc8-1_all.deb
+Size: 30360
+MD5sum: e12b737470afe2bc05b63bcbc1e1c01b
+SHA1: 5840131b3bc65a36ff5ef593e88d45bc018e17fe
+SHA256: 0b4f7be95b831f66c5bd8203b4270f206e24da810ccc98992d3025bb19c33bbe
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
