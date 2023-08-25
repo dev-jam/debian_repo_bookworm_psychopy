@@ -301,16 +301,16 @@ Description: Stimuli useful for vision scientists.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-pypi-search
-Version: 0:1.2.2-3~w2d0
+Version: 0:2.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 40
 Depends: python3-bs4 (>= 4.9.2), python3-html2text (>= 2020.1.16), python3-requests (>= 2.22.0), python3:any
-Filename: ./python3-pypi-search_1.2.2-3~w2d0_all.deb
-Size: 7056
-MD5sum: 96abccf3ea352779171e0a8a084821ab
-SHA1: b6de8bca121b36f1b0f9c114329dcc3c9de6dfd9
-SHA256: 655a14ec51752c41f18540c977ed6e6debe31accca5a99f4e09d2b1d4308db67
+Filename: ./python3-pypi-search_2.0-1~w2d0_all.deb
+Size: 6992
+MD5sum: 275829d23a8c55e2c1ee8a8c95746ce9
+SHA1: 79343489f75733260728c907099b76d52e3bc3ea
+SHA256: 6bcd5e3903c289e5b4fe279b8f72fcb8a39cfb6674c911b8d9d976a10a47b6c5
 Section: python
 Priority: optional
 Homepage: https://github.com/asadmoosvi/pypi-search
