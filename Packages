@@ -318,16 +318,16 @@ Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
-Version: 0:2.0.1-1~w2d0
+Version: 0:2.0.1.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 236
+Installed-Size: 226
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
-Filename: ./python3-titta_2.0.1-1~w2d0_all.deb
-Size: 39764
-MD5sum: 0e3eab34c8215c34d7f38dfed64fe86b
-SHA1: ebf10b8069c5e34c055a8ae7196e261c4661554d
-SHA256: 01ddb3aacb63ae3748b437671982f96a8f4bd730c722257f7d4a631572ee5785
+Filename: ./python3-titta_2.0.1.2-1~w2d0_all.deb
+Size: 38268
+MD5sum: cc9b77cc5bbdec4eb2be6b96fdec20a3
+SHA1: d33f0d9c78eaca4b95bd241c8b2f294f859c634f
+SHA256: 89ab754d2dc4aa0f607a89b9c365ec6b305e356ff7665207b3ef504047f37d83
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
