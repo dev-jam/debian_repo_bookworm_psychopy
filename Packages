@@ -51,16 +51,16 @@ Description: debug symbols for python3-dukpy
 Build-Ids: aae52e6cb0fa281c8b834f4aee09a21cbb4782c0
 
 Package: python3-egi-pynetstation
-Version: 0:0.0.0~rc1-3~w2d0
+Version: 0:0.0.1~a3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 141
-Depends: python3 (>= 3.10~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
-Filename: ./python3-egi-pynetstation_0.0.0~rc1-3~w2d0_all.deb
-Size: 25988
-MD5sum: af92624e480d53c05871ed9ccf8a67fa
-SHA1: 85796528d9cbd32658b2283196ac26219e6d5f6a
-SHA256: ad7227b47193ece90cab153a2edd93b0c4ade01121dd0a8218a19aaa9101f98d
+Depends: python3 (>= 3.8~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
+Filename: ./python3-egi-pynetstation_0.0.1~a3-1~w2d0_all.deb
+Size: 26192
+MD5sum: d8da11b6d216dbc8fdaffaa8c3ad0ff2
+SHA1: 860625e15eb97f55d7200670cd94e333f3ed2775
+SHA256: 6fea62d4b29564ecb447ef431ac8f67293d151f4ef66006e26794c07aaa24dd5
 Section: python
 Priority: optional
 Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
@@ -137,16 +137,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.31.2-1~w2d0
+Version: 0:2.31.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1183
-Depends: python3 (>= 3.7~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.31.2-1~w2d0_all.deb
-Size: 228488
-MD5sum: 99a0e428ce2b52210a55e03439020177
-SHA1: 3f2b651242d3e6672ff9d5450b34a26ff134cbe3
-SHA256: bcc5b7d984830a7f576ef94f389be83577d3d561138e2ee916d270ee0a73041f
+Installed-Size: 1182
+Depends: python3 (>= 3.8~), python3-numpy, python3-pil (>= 8.3.2), python3:any
+Filename: ./python3-imageio_2.31.3-1~w2d0_all.deb
+Size: 228376
+MD5sum: 6aa865ebde1de417c66c6e4aa3a184ab
+SHA1: d7fc1af2d81200856167dc37c9a9761a453e3ab8
+SHA256: a5bbb99d85b629aab75927f3ea459a10b31d41b6c7831fda0931b09743d708ec
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
