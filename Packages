@@ -154,16 +154,16 @@ Description: Library for reading and writing a wide range of image, video, scien
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio-ffmpeg
-Version: 0:0.4.8-3~w2d0
+Version: 0:0.4.9-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 72145
-Depends: python3 (>= 3.5~), python3:any
-Filename: ./python3-imageio-ffmpeg_0.4.8-3~w2d0_amd64.deb
-Size: 19233296
-MD5sum: 87f23c0ec887f51501f6f7087b12bf4e
-SHA1: ca6275f9f0defbe5d63c96e22ca02ea1004a634f
-SHA256: 377858f92a545d24b53f0b19526680912da29eb3a7a1d52c08c056bc576038cc
+Depends: python3 (>= 3.5~), python3-setuptools, python3:any
+Filename: ./python3-imageio-ffmpeg_0.4.9-1~w2d0_amd64.deb
+Size: 19233524
+MD5sum: 89b0681d4646334ccfbf8d9d248e5555
+SHA1: a20e23ca993dfd713b4dd5c8957deaea3b946a97
+SHA256: bc35c812231956c4ddabf55849d29182f1cc76b32b5e7aae8ca9cedfc1d6b00d
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio-ffmpeg
