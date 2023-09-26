@@ -137,16 +137,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.31.3-1~w2d0
+Version: 0:2.31.4-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1182
 Depends: python3 (>= 3.8~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.31.3-1~w2d0_all.deb
-Size: 228376
-MD5sum: 6aa865ebde1de417c66c6e4aa3a184ab
-SHA1: d7fc1af2d81200856167dc37c9a9761a453e3ab8
-SHA256: a5bbb99d85b629aab75927f3ea459a10b31d41b6c7831fda0931b09743d708ec
+Filename: ./python3-imageio_2.31.4-1~w2d0_all.deb
+Size: 228448
+MD5sum: 45375ea5086bd69f654c679b212c48a1
+SHA1: e1d9a17fc36143b339da97dda472ac7d705284af
+SHA256: 629d22fc7fc7ba442a4d9adda785343c34f734cf50bfbe5780707d57731ee499
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
