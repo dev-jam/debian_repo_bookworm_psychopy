@@ -51,16 +51,16 @@ Description: debug symbols for python3-dukpy
 Build-Ids: aae52e6cb0fa281c8b834f4aee09a21cbb4782c0
 
 Package: python3-egi-pynetstation
-Version: 0:0.0.1~a3-1~w2d0
+Version: 0:1.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 141
 Depends: python3 (>= 3.8~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
-Filename: ./python3-egi-pynetstation_0.0.1~a3-1~w2d0_all.deb
+Filename: ./python3-egi-pynetstation_1.0.0-1~w2d0_all.deb
 Size: 26192
-MD5sum: d8da11b6d216dbc8fdaffaa8c3ad0ff2
-SHA1: 860625e15eb97f55d7200670cd94e333f3ed2775
-SHA256: 6fea62d4b29564ecb447ef431ac8f67293d151f4ef66006e26794c07aaa24dd5
+MD5sum: 695928c2dfb8a0bc1fdc19e2fb60ec06
+SHA1: 8b479fcbf2977074aeb0bcc5d2cc618f69fb40a4
+SHA256: 1bff879f3f50038d815345f6be5ef00c23883b7d80aa7082d4c6e6f2729e5ee7
 Section: python
 Priority: optional
 Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
@@ -85,16 +85,16 @@ Description: ECMAScript parsing infrastructure for multipurpose analysis in Pyth
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-ffpyplayer
-Version: 0:4.5.0-3~w2d0
+Version: 0:4.5.1-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 48488
+Installed-Size: 48489
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-ffpyplayer_4.5.0-3~w2d0_amd64.deb
-Size: 14987176
-MD5sum: ac860004ee6b4c063f5c348196182db9
-SHA1: e690c16ad1adfa394efb3df4636eeb3457702099
-SHA256: d1280feb90c7858ca19f60f064836db3e05ec4398a21ca1fcfae0ff11d5acbe4
+Filename: ./python3-ffpyplayer_4.5.1-1~w2d0_amd64.deb
+Size: 14992568
+MD5sum: 2b091623677f4fa722aa79cfea926889
+SHA1: 686156cafe665111e82e72455261bb89073a515b
+SHA256: a6c7c44735db28c17cfb689027bc7ecee379005ad6df01bfb454718bd0da0dd2
 Section: python
 Priority: optional
 Homepage: https://matham.github.io/ffpyplayer/
@@ -103,21 +103,21 @@ Description: A cython implementation of an ffmpeg based player.
 
 Package: python3-ffpyplayer-dbgsym
 Source: python3-ffpyplayer
-Version: 0:4.5.0-3~w2d0
+Version: 0:4.5.1-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 11436
-Depends: python3-ffpyplayer (= 0:4.5.0-3~w2d0)
-Filename: ./python3-ffpyplayer-dbgsym_4.5.0-3~w2d0_amd64.deb
-Size: 9311484
-MD5sum: 33cec613b3922cb827da7a3b455d666e
-SHA1: 5dbb453227b31ee0bf71255a6fb0aab3ada72df6
-SHA256: 0179bc2004defb0777e3075c672fb477ec8ebfd7142dad18c23435637e09866d
+Installed-Size: 11439
+Depends: python3-ffpyplayer (= 0:4.5.1-1~w2d0)
+Filename: ./python3-ffpyplayer-dbgsym_4.5.1-1~w2d0_amd64.deb
+Size: 9314216
+MD5sum: 1fa7f2b0d494198897916ec513e52b60
+SHA1: bb9b6a9f423d56698d93c44e3bd17a828898d23d
+SHA256: 54b64ecb8e60d555b058b1fd534f765164f3e258a4d3431323367fa71267ec39
 Section: debug
 Priority: optional
 Description: debug symbols for python3-ffpyplayer
-Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 04f3ced693c697435018dfeb20e6c6e841b9c3ce 12aa0df334820cf91a6b49b8ee9170d657083455 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 1411d5f222a03519c761649f67a65bac8ad93e74 1b4cb3cf0637d8a3eb08c34dbe5e41b6d68a1b18 1d9611cb90296946c9688e5d98fbbc321c9cccc9 35d7ec06fbcaf217ad596412781c348a64b7cb03 47e37f1c7bfd0ef11d004957ef91bd6977f20f14 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 6ff302d4efec991d33c9152ff1dbdfbec30b2e9d 739c31c80525ffec5912965fa840dcf219cad8f4 77bc4c252509b6840e87f92fb61acb0a87d22795 86e37218d1e47909927a7b813a66729e381254f0 a410d84d27250e9de501ed358366b2ad60c039e2 a86509734d454a3dc11c2e85de81651738a4d367 ad73e83192694c10a549978208c762beefccdf0a b53b1799fefc760432fdbfe33e27398c90c96231 b53c46d9568e434a4e01371ef7d1909e386d4239 b860f3c0aac25578ea29702f4ee7185e0bd797ff b8b6d8b8b06ad8c2732524393e6b964c23f3173e be210cd06e7c4198a85913988f4bbdd4af003786 dbbb103dab857cd9a7495ec982b07595be0ab381 ecfcbe0835dbf31d716423d4a154c1fdd524f445 f65b5d1991e3abd5432696f7953d2d96fffcfdb1 fe6ee2e908a9d947ec23bcbc55cea9163f67286d
+Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 031f3aa57b30254f8147f921a5c3df4fce1f7cc8 04c5454303b7f303d710b24ca5657835f2caa6a5 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 149a71b544e205a162088726aeb2fc2fa3f82766 1b4cb3cf0637d8a3eb08c34dbe5e41b6d68a1b18 347829a546770d0ede3d63d02613350f31e620d2 35717a3493d496fcc07d77b7af4d38e0cda17aa5 35d7ec06fbcaf217ad596412781c348a64b7cb03 47e37f1c7bfd0ef11d004957ef91bd6977f20f14 540cea537ca69cf26c5185515163c4ec42aa8243 57a53ca942bd66063759766c29cc6a739e66ec03 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 86e37218d1e47909927a7b813a66729e381254f0 8c6d58b289bd0d85a322441e7c31da136067e8aa a86509734d454a3dc11c2e85de81651738a4d367 afdad17dd17317feacde1feca3b69f8eb1a26309 bcfad7c2fcbbe7460043a21f6dcd5e9975677517 be210cd06e7c4198a85913988f4bbdd4af003786 d59b9763e6b281678f17b2f9c04ce0eb73ec0e2f dbbb103dab857cd9a7495ec982b07595be0ab381 f29bb017612be90e5fad971e98ee26626cd40098 f4a231e56eab93c58152c01421a7d72906a3ce0f f65b5d1991e3abd5432696f7953d2d96fffcfdb1 fe6ee2e908a9d947ec23bcbc55cea9163f67286d
 
 Package: python3-i2mc
 Version: 0:2.2.3-1~w2d0
@@ -137,16 +137,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.31.4-1~w2d0
+Version: 0:2.31.6-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1182
-Depends: python3 (>= 3.8~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.31.4-1~w2d0_all.deb
-Size: 228448
-MD5sum: 45375ea5086bd69f654c679b212c48a1
-SHA1: e1d9a17fc36143b339da97dda472ac7d705284af
-SHA256: 629d22fc7fc7ba442a4d9adda785343c34f734cf50bfbe5780707d57731ee499
+Depends: python3 (>= 3.8~), python3-numpy, python3-pil (<< 10.1.0), python3-pil (>= 8.3.2), python3:any
+Filename: ./python3-imageio_2.31.6-1~w2d0_all.deb
+Size: 228484
+MD5sum: 0b4bcac7af97b1ab9d3d29d4a07233c2
+SHA1: 95c505455dfc0103020b916897438407e1092973
+SHA256: 88fc76cb82b84cb749d7280eb715791c5d1fd6834e18d402477da12cf4580f91
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -318,16 +318,16 @@ Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
-Version: 0:2.0.2-1~w2d0
+Version: 0:2.0.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 226
+Installed-Size: 225
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
-Filename: ./python3-titta_2.0.2-1~w2d0_all.deb
-Size: 38252
-MD5sum: 9bc21605889102f8b963a5a0f71bfe49
-SHA1: 78d222de81ff83b7ff5840106cee2be54697dd38
-SHA256: ef08e7e2fadc6f6fc8f2751484fadbbc3d5e0fdd24250536c2583797d2741079
+Filename: ./python3-titta_2.0.3-1~w2d0_all.deb
+Size: 38316
+MD5sum: 225a81e77038d81c7f4bfd8d557ae454
+SHA1: 5ffa05f67282c81b6f5d78cf3c27fc2e4c795262
+SHA256: 43c700b8d1f99d619ce8f6346c2ef60b7c1d74a45c346a3c5479cd0da2f59cac
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
