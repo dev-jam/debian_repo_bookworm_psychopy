@@ -51,16 +51,16 @@ Description: debug symbols for python3-dukpy
 Build-Ids: aae52e6cb0fa281c8b834f4aee09a21cbb4782c0
 
 Package: python3-egi-pynetstation
-Version: 0:1.0.0-1~w2d0
+Version: 0:1.0.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 141
 Depends: python3 (>= 3.8~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
-Filename: ./python3-egi-pynetstation_1.0.0-1~w2d0_all.deb
-Size: 26192
-MD5sum: 695928c2dfb8a0bc1fdc19e2fb60ec06
-SHA1: 8b479fcbf2977074aeb0bcc5d2cc618f69fb40a4
-SHA256: 1bff879f3f50038d815345f6be5ef00c23883b7d80aa7082d4c6e6f2729e5ee7
+Filename: ./python3-egi-pynetstation_1.0.1-1~w2d0_all.deb
+Size: 26188
+MD5sum: 4a947134cb971ad5417949a44a4754a4
+SHA1: 673b07a215b3d5e0bc6077fce31864ba8b3a195e
+SHA256: b238bdc38db65c3c96f00c73a53b3d34109e30dece687a805111360d091fe494
 Section: python
 Priority: optional
 Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
