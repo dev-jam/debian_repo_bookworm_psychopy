@@ -1,3 +1,50 @@
+Package: hdf5-plugin-lzf
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 55
+Depends: libc6 (>= 2.4)
+Suggests: libhdf5-dev | libhdf5-mpi-dev
+Provides: hdf5-filter-plugin-lzf-openmpi, hdf5-filter-plugin-lzf-serial
+Filename: ./hdf5-plugin-lzf_3.9.0-4~bpo12+1_amd64.deb
+Size: 11980
+MD5sum: 6cf17b81b8d747d6d238ebc3e981c629
+SHA1: 3dbbb95dc5a72f491b935d612acb80ef18071329
+SHA256: b6941d8838811f177ca2aabf3c93808610139a258352f11264c7efc4dddbce4d
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.h5py.org/
+Description: hdf5 plugin to lzf compression library
+ HDF5 (Hierarchical Data Format library, version 5) is a versatile,
+ mature scientific software library designed for the fast, flexible
+ storage of enormous amounts of data.
+ .
+ This package provides a plugin to the HDF5 LZF filter for the LZF
+ compression library. Plugins are built for both serial (single
+ processor) jobs (libhdf5-dev) and for multiprocessor (threaded) jobs
+ (libhdf5-mpi-dev).
+
+Package: hdf5-plugin-lzf-dbgsym
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 31
+Depends: hdf5-plugin-lzf (= 3.9.0-4~bpo12+1)
+Filename: ./hdf5-plugin-lzf-dbgsym_3.9.0-4~bpo12+1_amd64.deb
+Size: 7396
+MD5sum: 4015f91b99c1401d80ef9b8294b21440
+SHA1: c3fee923d7249112fbec54f2e7c997cadf9c5206
+SHA256: 1e69a000311dbc79f357806923abf34beb376a2300f6ac8004569d96f5b5c35e
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for hdf5-plugin-lzf
+Build-Ids: 3d2b088f330f1ce61e02258eb8abe7ff406bcd67 69e45e5932d7d5a991e475a8ec5735f9a6a4f5ae
+
 Package: psychopy
 Version: 0:2023.1.3-1~w2d0
 Architecture: all
@@ -14,6 +61,44 @@ Priority: optional
 Homepage: https://www.psychopy.org/
 Description: Psychology experiment software in Python
  This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python-h5py-doc
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2283
+Depends: libjs-sphinxdoc (>= 5.2), libjs-mathjax
+Built-Using: sphinx (= 5.3.0-4)
+Filename: ./python-h5py-doc_3.9.0-4~bpo12+1_all.deb
+Size: 247460
+MD5sum: 918d92312dfa080af411e18b4a72593f
+SHA1: a64fb14b68fe899c438f5877b6ba22f67535bcb2
+SHA256: fbcec5e9c2984f14390e621cc795f49e2980ff039776aece49d75acda70046bf
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.h5py.org/
+Description: documentation for h5py
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data.
+ .
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax.
+ .
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.
+ .
+ This package provides the documentation.
 
 Package: python3-dukpy
 Version: 0:0.3.0-3~w2d0
@@ -120,38 +205,159 @@ Description: debug symbols for python3-ffpyplayer
 Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 031f3aa57b30254f8147f921a5c3df4fce1f7cc8 04c5454303b7f303d710b24ca5657835f2caa6a5 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 149a71b544e205a162088726aeb2fc2fa3f82766 1b4cb3cf0637d8a3eb08c34dbe5e41b6d68a1b18 347829a546770d0ede3d63d02613350f31e620d2 35717a3493d496fcc07d77b7af4d38e0cda17aa5 35d7ec06fbcaf217ad596412781c348a64b7cb03 47e37f1c7bfd0ef11d004957ef91bd6977f20f14 540cea537ca69cf26c5185515163c4ec42aa8243 57a53ca942bd66063759766c29cc6a739e66ec03 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 86e37218d1e47909927a7b813a66729e381254f0 8c6d58b289bd0d85a322441e7c31da136067e8aa a86509734d454a3dc11c2e85de81651738a4d367 afdad17dd17317feacde1feca3b69f8eb1a26309 bcfad7c2fcbbe7460043a21f6dcd5e9975677517 be210cd06e7c4198a85913988f4bbdd4af003786 d59b9763e6b281678f17b2f9c04ce0eb73ec0e2f dbbb103dab857cd9a7495ec982b07595be0ab381 f29bb017612be90e5fad971e98ee26626cd40098 f4a231e56eab93c58152c01421a7d72906a3ce0f f65b5d1991e3abd5432696f7953d2d96fffcfdb1 fe6ee2e908a9d947ec23bcbc55cea9163f67286d
 
 Package: python3-h5py
-Version: 0:3.10.0-1~w2d0
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 9143
-Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1.17.3), python3:any
-Filename: ./python3-h5py_3.10.0-1~w2d0_amd64.deb
-Size: 2279880
-MD5sum: e79728cf84ff3f01506612a33caec756
-SHA1: fc67b4804702121eae994db041ead2a783d14064
-SHA256: 43d1235cc4c6c476b114bb7aa81c15c1a51a8fdb3ffa833a4a4e5e8480521351
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: python3-h5py-serial | python3-h5py-mpi, python3-numpy (>= 1.19.3), python3:any
+Suggests: python-h5py-doc
+Breaks: python3-h5py-serial (<< 3.9.0-1~)
+Replaces: python3-h5py-serial (<< 3.9.0-1~)
+Filename: ./python3-h5py_3.9.0-4~bpo12+1_all.deb
+Size: 14264
+MD5sum: 5e03de23b8e74acfc83fe5beeb5a6a8b
+SHA1: de7144ca0da87075b25c85c8a4f4b2a32756fb54
+SHA256: 56d9efe121175d479c7534df003bcefa8981ab9b043c5b7d7c8c956d54418617
 Section: python
 Priority: optional
-Description: Read and write HDF5 files from Python
- This package was automatically generated from the upstream wheel by wheel2deb.
+Homepage: https://www.h5py.org/
+Description: general-purpose Python interface to hdf5
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data.
+ .
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax.
+ .
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.
+ .
+ This is a simple dependency package which depends on the serial or
+ MPI build of h5py and provides test data files.
 
-Package: python3-h5py-dbgsym
-Source: python3-h5py
-Version: 0:3.10.0-1~w2d0
+Package: python3-h5py-mpi
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 3944
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-mpi4py (>= 3.1.4), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-openmpi-103-1 (>= 1.10.7), libhdf5-openmpi-hl-100 (>= 1.10.2), liblzf1 (>= 1.5), libopenmpi3 (>= 4.1.4)
+Recommends: python3-h5py
+Suggests: python-h5py-doc
+Filename: ./python3-h5py-mpi_3.9.0-4~bpo12+1_amd64.deb
+Size: 832100
+MD5sum: 0ebebdd61455a1bfab7f24c8edfc1d87
+SHA1: 81d2ffde46b4b7106813a2ee09829a2434545f7f
+SHA256: 99d36754fef8e7794f155021da9552b4525f753a06eb3e173cbf9d1c810205fa
+Section: python
+Priority: optional
+Homepage: https://www.h5py.org/
+Description: general-purpose Python interface to hdf5 (Python 3 MPI)
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data.
+ .
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax.
+ .
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.
+ .
+ This package provides the modules for Python 3, built with support
+ for MPI (multiprocessor) jobs.
+
+Package: python3-h5py-mpi-dbgsym
+Source: h5py
+Version: 3.9.0-4~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2545
-Depends: python3-h5py (= 0:3.10.0-1~w2d0)
-Filename: ./python3-h5py-dbgsym_3.10.0-1~w2d0_amd64.deb
-Size: 1402180
-MD5sum: 39199c0d19da7b1cbede7907dcb53a55
-SHA1: 9fd84bf6b89a03a700d0acf985db62fa7752fe05
-SHA256: 3227344b51b4976778a1ca5d62afa3b5afb9232cc1ad4aac4eaf40b1c507ef85
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 5170
+Depends: python3-h5py-mpi (= 3.9.0-4~bpo12+1)
+Filename: ./python3-h5py-mpi-dbgsym_3.9.0-4~bpo12+1_amd64.deb
+Size: 4436080
+MD5sum: fd8a1461abbfad7dbfe81811050abec2
+SHA1: 6c1b88922ecd7f94fcce46b5f79fa322840d12f4
+SHA256: c352ccc36f818006067ed98e9a6b360d696d2b32da8212202783416dff8a26e2
 Section: debug
 Priority: optional
-Description: debug symbols for python3-h5py
-Build-Ids: 001b64f09edd7dda41c39643766e07f4966bd135 02ba01c6449bad88f3fec29c6fda412294ad2fcf 0f093095ed14fb99ab31f4112f49d78ed9af8393 1034b1d9ecb0cb05aade975a98179850c4e880b6 1b4a23cee4189ef4c60c903f3a68aa50637e2484 25b847c2f7fb6ce3a9fc85dc49adfcf90562c272 2d2a8b8b4fcee2fe00af7dd5e07577623ed54001 4b4d96ccffb64ff25e1b24eedf96fbe470f554b2 4c0799012fddc037304b634f36f677008fd78c64 4f15e16e086e981bd4efa3366952120c3edd3296 50340c2175dc58e117bc851e3079943bc1e76ba2 5c3a959e0b396031b7c36fcbfeabcaf626f08046 5f3d263e2538d77f0a972277a8326a7a04ef2f05 6379b008fc199f3787c10ca0ecff4f11de3eb377 6654dac00518e1af9bf803f58841fa97f8c866e2 6cd4db00be3690c4e7d857a73a7bb39d37533fae 7bfcf32f8d72e562b5defa23dc198bbe1d7dffaf 84cfbae3861412c88c0241456aa8736f0aa738ec a2764eb9152a2d47e27149cdd812c651881d2833 a369e782054f92ad551f3cf838cc91daa9f7f139 afbf426a6826d424e3ac4a9c82dcc7432708afb1 b4f7079d16285d858f24b937ac0126c08411b70d d01ad97579067d9b12e9d4a654998b334b345898 d62ad7238a2b83a56e68c54e043390b4029005a9 e188eb88eac3913013a74e6b07d3548023510dea e98af4af232c559fc28e60d043af36a3e4a80c23 ea703e3c52a234073d7b00a67a3927fde26ad80d fca46fd35c91d366394d4595ea203b1d8beb5c15
+Description: debug symbols for python3-h5py-mpi
+Build-Ids: 0819d190f720f9ddb10f2584a97caca2a984d085 1534e8a49358e71ec2fe60df84ecf2bedb4f40b2 15e482714828af3c24f286b4a7f8cf9c358a31f6 27439d697ee210103dcbe4a5d0b99c69f238d6d3 32d679fbd817b1760303db4eb9d1a194aaf57a03 3ca784a933823794603ed5a5be7e14f14a321c14 4113ef67b0d586f1bc187a1d4e9c99122116d63e 441760b5ea07773d67e4c296b688d985b155ba20 469fc9057f802dd57518dd51f83c9f2540f84239 47ccad012b86f3b5f6f9387776e8596cd5f7748c 51d8ef2110c25e59f2019439229543c79caa16df 51e04dba8dfa7a63c7a6ea92bfac11d99f504c5e 58477eec5be98d676172fe6ffd9e1be1aad80d92 717f28594616d4a934446909dea84e75de2b6ebe 770b7d37d265869ccd64157243613bb3d7d39ac1 77b528255eafe234e6adab8730f2db1e7610d840 8b845c22c050a20f58bd020dc129e52ef21da592 a882342e0e779275d75bca08b2b3fe2b63d4976f aa6eeee4d28b06d7f0e7d0890e56227cc60cde40 acc1d31b10b6b63fafd29f4f7fc753b9c230d571 c0354a8a6219756b6e4dab39b38443611e3dbffe ce68aca926626d585fa268dc310ad4da0ea61fc7 d254ac1f6bb5ccf3a65fdebdc9dd20034394f86f e616df2a887eeb71f47487bbc77b6a87a6086dc3
+
+Package: python3-h5py-serial
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 3932
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-103-1, libhdf5-hl-100, liblzf1 (>= 1.5)
+Recommends: python3-h5py
+Suggests: python-h5py-doc
+Conflicts: python3-h5py (<< 2.10.0-3~)
+Filename: ./python3-h5py-serial_3.9.0-4~bpo12+1_amd64.deb
+Size: 829028
+MD5sum: ec4c6fba7d91853e71c85f0ef4cdfe29
+SHA1: 711b00f1d70a075507297ea0dca5eec423b128b6
+SHA256: 955dd57852edc965048b54907de49ffeb3744cd02ea03df321107faad1faa560
+Section: python
+Priority: optional
+Homepage: https://www.h5py.org/
+Description: general-purpose Python interface to hdf5 (Python 3 serial)
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data.
+ .
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax.
+ .
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.
+ .
+ This package provides the modules for Python 3, built for serial
+ (single processor) jobs.
+
+Package: python3-h5py-serial-dbgsym
+Source: h5py
+Version: 3.9.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 5156
+Depends: python3-h5py-serial (= 3.9.0-4~bpo12+1)
+Filename: ./python3-h5py-serial-dbgsym_3.9.0-4~bpo12+1_amd64.deb
+Size: 4411780
+MD5sum: 563cad7f4f83449bf99a0b45b8428002
+SHA1: 9ebbc3057d0f8d17013b88b65ac554b2114617d3
+SHA256: 90db7e9d33c2dfab0be5f4a6b7fb496bbb1874f1f4a37a432d13f4e54baa9c77
+Section: debug
+Priority: optional
+Description: debug symbols for python3-h5py-serial
+Build-Ids: 03a6a2070c7f0116c796a88b23309e8554b45c9d 137f6849c46bd1b54a28ef0f95873c11174b71cd 1a1c12e543a5541243b94ac96c8e512f14f47d62 283304ac0e37a6063d7db720da79d7565ea6e55c 2a70ceac0e5824d7918debde5b36f58a6bc3ce52 2df0b999cc8099a09f9adde6483024c2ad5d07c6 3384ec590509f8404537d3958466810c8241a198 38b3eebeb158e6c85f28945f3c341f1c6cded48b 5d101f7faaccbe1e5fc4eab09b8070128391c79e 5f0105d1527c0334edd22800f228f03cf8c33306 62a94079f8a9c830f252745b3a13bff62213a41e 694cdb51547016b3fff4da5114840951a8100d2d 772d7fceff1143574b0179eb91aaa7829c7c0370 7ea40b025443c2fed27dc77d8082094435d73bd1 96e36cb5389f861ec285baff7146d1c66dd0ef1e 97f962133914780da555a27e015526fdd394a210 99df5266013595a06c123d2e3bf83e89a637cce0 9ea4d378bf1efbdc5add4a6a02f805cf4bcb5ea9 d5d46024fc24ef2ec5cc3a12b136544aee0a2270 d74710d75cd3790b94e6fa2c9fd8a2dcdb46e91e dcef003d1ea3a30f28884eb4ef0be00cb9bcdd67 e6aebe351983c954859c3fc1542257954b1fad6e ed63142e0351656e175d5d8957f037132a18b1d8 fe1259480d5550a952076670bd175aba25e28e3e
 
 Package: python3-i2mc
 Version: 0:2.2.3-1~w2d0
