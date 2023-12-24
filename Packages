@@ -119,6 +119,40 @@ Priority: optional
 Description: debug symbols for python3-ffpyplayer
 Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 031f3aa57b30254f8147f921a5c3df4fce1f7cc8 04c5454303b7f303d710b24ca5657835f2caa6a5 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 149a71b544e205a162088726aeb2fc2fa3f82766 1b4cb3cf0637d8a3eb08c34dbe5e41b6d68a1b18 347829a546770d0ede3d63d02613350f31e620d2 35717a3493d496fcc07d77b7af4d38e0cda17aa5 35d7ec06fbcaf217ad596412781c348a64b7cb03 47e37f1c7bfd0ef11d004957ef91bd6977f20f14 540cea537ca69cf26c5185515163c4ec42aa8243 57a53ca942bd66063759766c29cc6a739e66ec03 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 86e37218d1e47909927a7b813a66729e381254f0 8c6d58b289bd0d85a322441e7c31da136067e8aa a86509734d454a3dc11c2e85de81651738a4d367 afdad17dd17317feacde1feca3b69f8eb1a26309 bcfad7c2fcbbe7460043a21f6dcd5e9975677517 be210cd06e7c4198a85913988f4bbdd4af003786 d59b9763e6b281678f17b2f9c04ce0eb73ec0e2f dbbb103dab857cd9a7495ec982b07595be0ab381 f29bb017612be90e5fad971e98ee26626cd40098 f4a231e56eab93c58152c01421a7d72906a3ce0f f65b5d1991e3abd5432696f7953d2d96fffcfdb1 fe6ee2e908a9d947ec23bcbc55cea9163f67286d
 
+Package: python3-h5py
+Version: 0:3.10.0-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 9143
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1.17.3), python3:any
+Filename: ./python3-h5py_3.10.0-1~w2d0_amd64.deb
+Size: 2279880
+MD5sum: e79728cf84ff3f01506612a33caec756
+SHA1: fc67b4804702121eae994db041ead2a783d14064
+SHA256: 43d1235cc4c6c476b114bb7aa81c15c1a51a8fdb3ffa833a4a4e5e8480521351
+Section: python
+Priority: optional
+Description: Read and write HDF5 files from Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-h5py-dbgsym
+Source: python3-h5py
+Version: 0:3.10.0-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 2545
+Depends: python3-h5py (= 0:3.10.0-1~w2d0)
+Filename: ./python3-h5py-dbgsym_3.10.0-1~w2d0_amd64.deb
+Size: 1402180
+MD5sum: 39199c0d19da7b1cbede7907dcb53a55
+SHA1: 9fd84bf6b89a03a700d0acf985db62fa7752fe05
+SHA256: 3227344b51b4976778a1ca5d62afa3b5afb9232cc1ad4aac4eaf40b1c507ef85
+Section: debug
+Priority: optional
+Description: debug symbols for python3-h5py
+Build-Ids: 001b64f09edd7dda41c39643766e07f4966bd135 02ba01c6449bad88f3fec29c6fda412294ad2fcf 0f093095ed14fb99ab31f4112f49d78ed9af8393 1034b1d9ecb0cb05aade975a98179850c4e880b6 1b4a23cee4189ef4c60c903f3a68aa50637e2484 25b847c2f7fb6ce3a9fc85dc49adfcf90562c272 2d2a8b8b4fcee2fe00af7dd5e07577623ed54001 4b4d96ccffb64ff25e1b24eedf96fbe470f554b2 4c0799012fddc037304b634f36f677008fd78c64 4f15e16e086e981bd4efa3366952120c3edd3296 50340c2175dc58e117bc851e3079943bc1e76ba2 5c3a959e0b396031b7c36fcbfeabcaf626f08046 5f3d263e2538d77f0a972277a8326a7a04ef2f05 6379b008fc199f3787c10ca0ecff4f11de3eb377 6654dac00518e1af9bf803f58841fa97f8c866e2 6cd4db00be3690c4e7d857a73a7bb39d37533fae 7bfcf32f8d72e562b5defa23dc198bbe1d7dffaf 84cfbae3861412c88c0241456aa8736f0aa738ec a2764eb9152a2d47e27149cdd812c651881d2833 a369e782054f92ad551f3cf838cc91daa9f7f139 afbf426a6826d424e3ac4a9c82dcc7432708afb1 b4f7079d16285d858f24b937ac0126c08411b70d d01ad97579067d9b12e9d4a654998b334b345898 d62ad7238a2b83a56e68c54e043390b4029005a9 e188eb88eac3913013a74e6b07d3548023510dea e98af4af232c559fc28e60d043af36a3e4a80c23 ea703e3c52a234073d7b00a67a3927fde26ad80d fca46fd35c91d366394d4595ea203b1d8beb5c15
+
 Package: python3-i2mc
 Version: 0:2.2.3-1~w2d0
 Architecture: all
@@ -137,16 +171,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.33.0-1~w2d0
+Version: 0:2.33.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1181
 Depends: python3 (>= 3.8~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.33.0-1~w2d0_all.deb
-Size: 228592
-MD5sum: de38f2cddcb3330cb4d2fb358472895f
-SHA1: 2011a6585ffd29fd16ff0f928241eaf08318482e
-SHA256: 368e53800f43cbc95e0934a22f90e2a616251465e66f27fae1a78b01e97ab100
+Filename: ./python3-imageio_2.33.1-1~w2d0_all.deb
+Size: 228568
+MD5sum: 917539c1362eb563162db15eb7efe151
+SHA1: ec67aa65670c19ff5ba5340d2742784d1c9775be
+SHA256: 5d5461c77e245abe23f9abf2011f0038057f92abf3df6e8b1e80f8969a8286ac
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
@@ -285,16 +319,16 @@ Description: Extension for using SoundDevice for audio playback.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-visionscience
-Version: 0:0.0.1-3~w2d0
+Version: 0:0.0.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 371
-Depends: python3 (>= 3.7~), python3-numpy, python3:any
-Filename: ./python3-psychopy-visionscience_0.0.1-3~w2d0_all.deb
-Size: 89652
-MD5sum: 78946b19f5ba9096fd054b250d8317c6
-SHA1: 5ae7977bf614e5eb9288b63695d8716b72018b93
-SHA256: a82a95e6af8cef3a7b528b42b73e03afca4f14e345cf6d7e1045a5240d4fdfec
+Installed-Size: 454
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-psychopy-visionscience_0.0.2-1~w2d0_all.deb
+Size: 109488
+MD5sum: 2764dae754491648a67367e9a85c8d80
+SHA1: a533962e86bf568a361b2f8152a2b9b76a56051e
+SHA256: 5c037c6813b393c58c0f0bb9e22d2c485c20e198a316bc97a5158aa44379db31
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
@@ -318,16 +352,16 @@ Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
-Version: 0:2.0.4-1~w2d0
+Version: 0:2.0.5-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 225
+Installed-Size: 229
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
-Filename: ./python3-titta_2.0.4-1~w2d0_all.deb
-Size: 38308
-MD5sum: 56c403124a70ed662900fc4e9b1d84ed
-SHA1: 1d8fb92aeeacfd5d7971e737f766e628c09c3ccb
-SHA256: 67fdefec8a5d701a6db3bde5edbdee0295aaaa05f84440213369ced3a9e67db1
+Filename: ./python3-titta_2.0.5-1~w2d0_all.deb
+Size: 38756
+MD5sum: 3088110eb6e1af0f4b31c1ef76699cb5
+SHA1: 7c53570c258b44ea1576ac47d36149c0c3c0c511
+SHA256: 930dd2adf0452c72686c59adf9d5a48312e3db0124a84d5dce783712b4afdf77
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
@@ -335,16 +369,16 @@ Description: Titta is a toolbox for using eye trackers from Tobii with Python, s
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
-Version: 0:1.0.0-3~w2d0
+Version: 0:1.0.1-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10062
+Installed-Size: 10086
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any
-Filename: ./python3-tittapy_1.0.0-3~w2d0_amd64.deb
-Size: 3275524
-MD5sum: 57878bc310c7bea44924e4609555e678
-SHA1: 8ba05596bac8448a82fda5f39600289f4abff0fc
-SHA256: 1d09e40ec62bde759d5b749755cc57632c58258a456b1f8ff5e277c29dc33191
+Filename: ./python3-tittapy_1.0.1-1~w2d0_amd64.deb
+Size: 3280044
+MD5sum: c9544568603c04d3b146d1456bba982c
+SHA1: 853c0ff6ee4d8e39441cae5171f6cdd9fcb81e0e
+SHA256: e77ed47f1e7b2c54b10dee5962ce9132f5a84013f35c01247010f7ec596af304
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/Titta
@@ -353,19 +387,19 @@ Description: Interface to Tobii eye trackers using Tobii Pro SDK
 
 Package: python3-tittapy-dbgsym
 Source: python3-tittapy
-Version: 0:1.0.0-3~w2d0
+Version: 0:1.0.1-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4018
-Depends: python3-tittapy (= 0:1.0.0-3~w2d0)
-Filename: ./python3-tittapy-dbgsym_1.0.0-3~w2d0_amd64.deb
-Size: 3250544
-MD5sum: 0f3473cf4d25e6151c8bbdeca684aaa9
-SHA1: cfb4cba443bbaeeefd2bd7a168b938131e6b1d16
-SHA256: 70daf9c2beacb0fcdb6cfa1ee8b5f1e1f0260003b8b1260e3b0d81865dcee929
+Installed-Size: 4069
+Depends: python3-tittapy (= 0:1.0.1-1~w2d0)
+Filename: ./python3-tittapy-dbgsym_1.0.1-1~w2d0_amd64.deb
+Size: 3297712
+MD5sum: ec3126434271ef07834faa697350b272
+SHA1: d20a13a971589a386171b3f05eac284524ab2478
+SHA256: 21c3732d1ab08669f0d431ea740264018a34f4669bb23e5a71c75838d1d37720
 Section: debug
 Priority: optional
 Description: debug symbols for python3-tittapy
-Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 9ae8f7ff9060b6121b4c82e784b37bc0141dd1f4
+Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 5281d2f9de26ab0736fb83e13145d532d721d774
 
