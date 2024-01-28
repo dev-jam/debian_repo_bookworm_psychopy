@@ -525,16 +525,16 @@ Description: Extension for using SoundDevice for audio playback.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-visionscience
-Version: 0:0.0.2-1~w2d0
+Version: 0:0.0.4-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 454
+Installed-Size: 487
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-psychopy-visionscience_0.0.2-1~w2d0_all.deb
-Size: 109488
-MD5sum: 2764dae754491648a67367e9a85c8d80
-SHA1: a533962e86bf568a361b2f8152a2b9b76a56051e
-SHA256: 5c037c6813b393c58c0f0bb9e22d2c485c20e198a316bc97a5158aa44379db31
+Filename: ./python3-psychopy-visionscience_0.0.4-1~w2d0_all.deb
+Size: 111552
+MD5sum: 98061c52f22b9d4d6174146ddf3a9fc4
+SHA1: 6d877c84a9553fa3df3bda75929d44bd62fae2d7
+SHA256: 90118bd484ac2a1750614b9b2bf4180cfeaf576bd87fbf39351e1ada2f83a35d
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
@@ -575,16 +575,16 @@ Description: Titta is a toolbox for using eye trackers from Tobii with Python, s
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
-Version: 0:1.0.1-1~w2d0
+Version: 0:1.2.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10086
+Installed-Size: 10024
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any
-Filename: ./python3-tittapy_1.0.1-1~w2d0_amd64.deb
-Size: 3280044
-MD5sum: c9544568603c04d3b146d1456bba982c
-SHA1: 853c0ff6ee4d8e39441cae5171f6cdd9fcb81e0e
-SHA256: e77ed47f1e7b2c54b10dee5962ce9132f5a84013f35c01247010f7ec596af304
+Filename: ./python3-tittapy_1.2.0-1~w2d0_amd64.deb
+Size: 3270292
+MD5sum: a76860ed437c14566d8a192835c88c55
+SHA1: 9a2c414fe6708dd29b18799c6aa58757ba5fd41a
+SHA256: 3d2e1c641c56e9a7b33b332fa9837c0f38be8b92e9efd3d31439da6e95d3f337
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/Titta
@@ -593,19 +593,19 @@ Description: Interface to Tobii eye trackers using Tobii Pro SDK
 
 Package: python3-tittapy-dbgsym
 Source: python3-tittapy
-Version: 0:1.0.1-1~w2d0
+Version: 0:1.2.0-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4069
-Depends: python3-tittapy (= 0:1.0.1-1~w2d0)
-Filename: ./python3-tittapy-dbgsym_1.0.1-1~w2d0_amd64.deb
-Size: 3297712
-MD5sum: ec3126434271ef07834faa697350b272
-SHA1: d20a13a971589a386171b3f05eac284524ab2478
-SHA256: 21c3732d1ab08669f0d431ea740264018a34f4669bb23e5a71c75838d1d37720
+Installed-Size: 4049
+Depends: python3-tittapy (= 0:1.2.0-1~w2d0)
+Filename: ./python3-tittapy-dbgsym_1.2.0-1~w2d0_amd64.deb
+Size: 3284584
+MD5sum: 4d19bbff9350379a2954b70e59765d48
+SHA1: c5fd6cb51e100e89086348e1c70e17393b9b4183
+SHA256: 6c9b39cb47d3d89f84bd77e9b404dcaaa5ffab75c0449c7fb52ebb062c37b626
 Section: debug
 Priority: optional
 Description: debug symbols for python3-tittapy
-Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 5281d2f9de26ab0736fb83e13145d532d721d774
+Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 d164933764c4f4f679ae0297d7a9b5531b22aa70
 
