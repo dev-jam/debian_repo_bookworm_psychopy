@@ -575,16 +575,16 @@ Description: Titta is a toolbox for using eye trackers from Tobii with Python, s
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
-Version: 0:1.2.0-1~w2d0
+Version: 0:1.3.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10024
+Installed-Size: 10029
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any
-Filename: ./python3-tittapy_1.2.0-1~w2d0_amd64.deb
-Size: 3270292
-MD5sum: a76860ed437c14566d8a192835c88c55
-SHA1: 9a2c414fe6708dd29b18799c6aa58757ba5fd41a
-SHA256: 3d2e1c641c56e9a7b33b332fa9837c0f38be8b92e9efd3d31439da6e95d3f337
+Filename: ./python3-tittapy_1.3.0-1~w2d0_amd64.deb
+Size: 3276460
+MD5sum: f682e284dfa66d2a344414126db6d28c
+SHA1: 60cc2df990fdf488269f88fa78751035bd24e31f
+SHA256: 2dc779d0f9e86f158ecac5072ce6766656c4195be6c7967d0b2a7e5568e1d788
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/Titta
@@ -593,19 +593,19 @@ Description: Interface to Tobii eye trackers using Tobii Pro SDK
 
 Package: python3-tittapy-dbgsym
 Source: python3-tittapy
-Version: 0:1.2.0-1~w2d0
+Version: 0:1.3.0-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 4049
-Depends: python3-tittapy (= 0:1.2.0-1~w2d0)
-Filename: ./python3-tittapy-dbgsym_1.2.0-1~w2d0_amd64.deb
-Size: 3284584
-MD5sum: 4d19bbff9350379a2954b70e59765d48
-SHA1: c5fd6cb51e100e89086348e1c70e17393b9b4183
-SHA256: 6c9b39cb47d3d89f84bd77e9b404dcaaa5ffab75c0449c7fb52ebb062c37b626
+Depends: python3-tittapy (= 0:1.3.0-1~w2d0)
+Filename: ./python3-tittapy-dbgsym_1.3.0-1~w2d0_amd64.deb
+Size: 3284420
+MD5sum: efc537705d94ac391b37297e16462c08
+SHA1: 1518fbd4d8739fb905777a46fa40cf2613c64c4e
+SHA256: 79c7ab5520eb05595ef32180ab0e4362bed879f7190ace3e23080afb5120b3e8
 Section: debug
 Priority: optional
 Description: debug symbols for python3-tittapy
-Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 d164933764c4f4f679ae0297d7a9b5531b22aa70
+Build-Ids: 463897107f2b7e13af291c7460886a78f6e7d639 c6264f9b87a7618f3b648b084a312325a6cde798
 
