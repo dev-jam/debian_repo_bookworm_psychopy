@@ -101,16 +101,16 @@ Description: documentation for h5py
  This package provides the documentation.
 
 Package: python3-dukpy
-Version: 0:0.3.0-3~w2d0
+Version: 0:0.3.1-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 5892
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-dukpy_0.3.0-3~w2d0_amd64.deb
-Size: 993824
-MD5sum: 95235750635a3555deb5d5f6a0e56732
-SHA1: 86a0460ebd0d054385a932b374b6e8ef196a28be
-SHA256: 2c8dc4df3386ac6a38549f2d95f8ca403fbbaad5bc7da35d9bcefa0357e6ffba
+Filename: ./python3-dukpy_0.3.1-1~w2d0_amd64.deb
+Size: 993876
+MD5sum: 2172ff217921f8c6be13f74328a01abd
+SHA1: bfa384da96fc8ac0ad348331a78bf524404de177
+SHA256: 3b048de5ab47522989a2d35f2dec4da7405d63c28f9f705657691a1039d61e5a
 Section: python
 Priority: optional
 Homepage: https://github.com/amol-/dukpy
@@ -119,21 +119,21 @@ Description: Simple JavaScript interpreter for Python
 
 Package: python3-dukpy-dbgsym
 Source: python3-dukpy
-Version: 0:0.3.0-3~w2d0
+Version: 0:0.3.1-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1171
-Depends: python3-dukpy (= 0:0.3.0-3~w2d0)
-Filename: ./python3-dukpy-dbgsym_0.3.0-3~w2d0_amd64.deb
-Size: 1131876
-MD5sum: 6949651b1cabedd417c8924e004daeec
-SHA1: 226bdcb041a341b29399e4cf4d6c4db5015ee896
-SHA256: 2ef8bcba33516b889ada2347d3d9be3abe93a7bb4b1f6732b9c3b348a68d24cd
+Depends: python3-dukpy (= 0:0.3.1-1~w2d0)
+Filename: ./python3-dukpy-dbgsym_0.3.1-1~w2d0_amd64.deb
+Size: 1131764
+MD5sum: 5893977cc538de6c4aae0f87ce957ad0
+SHA1: 81854af9b511851d6786a5454701430d6a45e876
+SHA256: ccf445fd5767152388145d6969aff58755706930d2a0c9b7af535cb7633df59c
 Section: debug
 Priority: optional
 Description: debug symbols for python3-dukpy
-Build-Ids: aae52e6cb0fa281c8b834f4aee09a21cbb4782c0
+Build-Ids: 0d878e2818dbbdd831ba27a46fecc204560e39c7
 
 Package: python3-egi-pynetstation
 Version: 0:1.0.1-1~w2d0
@@ -525,16 +525,16 @@ Description: Extension for using SoundDevice for audio playback.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-visionscience
-Version: 0:0.0.4-1~w2d0
+Version: 0:0.0.5-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 487
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-psychopy-visionscience_0.0.4-1~w2d0_all.deb
-Size: 111552
-MD5sum: 98061c52f22b9d4d6174146ddf3a9fc4
-SHA1: 6d877c84a9553fa3df3bda75929d44bd62fae2d7
-SHA256: 90118bd484ac2a1750614b9b2bf4180cfeaf576bd87fbf39351e1ada2f83a35d
+Filename: ./python3-psychopy-visionscience_0.0.5-1~w2d0_all.deb
+Size: 111548
+MD5sum: d511b07d4f258a469508fb2d5747f594
+SHA1: c0d4b81b61a9ad7c70bae43eb767193be18e9495
+SHA256: 6101aff5cb278b829bf5f9b08069b024ff8ea4d71e797e5cf6de2230f9c8dce5
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
