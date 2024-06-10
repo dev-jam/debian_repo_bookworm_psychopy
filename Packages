@@ -101,16 +101,16 @@ Description: documentation for h5py
  This package provides the documentation.
 
 Package: python3-dukpy
-Version: 0:0.3.1-1~w2d0
+Version: 0:0.4.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 5892
-Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-dukpy_0.3.1-1~w2d0_amd64.deb
-Size: 993876
-MD5sum: 2172ff217921f8c6be13f74328a01abd
-SHA1: bfa384da96fc8ac0ad348331a78bf524404de177
-SHA256: 3b048de5ab47522989a2d35f2dec4da7405d63c28f9f705657691a1039d61e5a
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-mutf8, python3:any
+Filename: ./python3-dukpy_0.4.0-1~w2d0_amd64.deb
+Size: 994116
+MD5sum: ff21194c1acda0187a15ef12e04705cf
+SHA1: ba5d5addb6f0ea3c2a16a06bf0fea972856506c4
+SHA256: 5415282a194b394b52e44cdfac86ab073100d29730785ecf8eb6fc1e61a1ac1c
 Section: python
 Priority: optional
 Homepage: https://github.com/amol-/dukpy
@@ -119,21 +119,21 @@ Description: Simple JavaScript interpreter for Python
 
 Package: python3-dukpy-dbgsym
 Source: python3-dukpy
-Version: 0:0.3.1-1~w2d0
+Version: 0:0.4.0-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 1171
-Depends: python3-dukpy (= 0:0.3.1-1~w2d0)
-Filename: ./python3-dukpy-dbgsym_0.3.1-1~w2d0_amd64.deb
-Size: 1131764
-MD5sum: 5893977cc538de6c4aae0f87ce957ad0
-SHA1: 81854af9b511851d6786a5454701430d6a45e876
-SHA256: ccf445fd5767152388145d6969aff58755706930d2a0c9b7af535cb7633df59c
+Depends: python3-dukpy (= 0:0.4.0-1~w2d0)
+Filename: ./python3-dukpy-dbgsym_0.4.0-1~w2d0_amd64.deb
+Size: 1132116
+MD5sum: 31f5da32fdb34f99d4fc5eea812308d8
+SHA1: 80fd8a7258e0f058f4f28477fcd6243444ef2b1e
+SHA256: 024f325c50a055fcba051bb89510726188c0806e0bb13f0a2da22cf7eec9fd0e
 Section: debug
 Priority: optional
 Description: debug symbols for python3-dukpy
-Build-Ids: 0d878e2818dbbdd831ba27a46fecc204560e39c7
+Build-Ids: 273f130670d2e68e157c231b15dfe6258e0c7b5f
 
 Package: python3-egi-pynetstation
 Version: 0:1.0.1-1~w2d0
@@ -394,16 +394,16 @@ Description: Library for reading and writing a wide range of image, video, scien
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio-ffmpeg
-Version: 0:0.4.9-1~w2d0
+Version: 0:0.5.1-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 72145
-Depends: python3 (>= 3.5~), python3-setuptools, python3:any
-Filename: ./python3-imageio-ffmpeg_0.4.9-1~w2d0_amd64.deb
-Size: 19233524
-MD5sum: 89b0681d4646334ccfbf8d9d248e5555
-SHA1: a20e23ca993dfd713b4dd5c8957deaea3b946a97
-SHA256: bc35c812231956c4ddabf55849d29182f1cc76b32b5e7aae8ca9cedfc1d6b00d
+Installed-Size: 72146
+Depends: python3 (>= 3.7~), python3-setuptools, python3:any
+Filename: ./python3-imageio-ffmpeg_0.5.1-1~w2d0_amd64.deb
+Size: 19236456
+MD5sum: 05d6b9df885fac7edea0377608e7650d
+SHA1: 2ce8cf20ea00817fd0c2df321832ee87dfa2e5e7
+SHA256: a786f0d73e85df9d17a1a8957a7fee56ca0274302cb6e64c02dd9720cb25917e
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio-ffmpeg
@@ -426,6 +426,41 @@ Priority: optional
 Homepage: https://github.com/azazel75/metapensiero.pj
 Description: Javascript for refined palates: a Python 3 to ES6 Javascript translator
  This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-mutf8
+Version: 0:1.0.6-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 44
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-mutf8_1.0.6-1~w2d0_amd64.deb
+Size: 8736
+MD5sum: 3c9a42ea8e988a08b0400f22adef4a25
+SHA1: 720c2df0af32a8e04155040909df6aecca6ba3b3
+SHA256: 11d37864e2f124404b581171a6e2d785a3fb979259bc50841fed1c4f6334ff0d
+Section: python
+Priority: optional
+Homepage: http://github.com/TkTech/mutf8
+Description: Fast MUTF-8 encoder & decoder
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-mutf8-dbgsym
+Source: python3-mutf8
+Version: 0:1.0.6-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 25
+Depends: python3-mutf8 (= 0:1.0.6-1~w2d0)
+Filename: ./python3-mutf8-dbgsym_1.0.6-1~w2d0_amd64.deb
+Size: 12092
+MD5sum: 51e5addc2208a72576fb735944c54170
+SHA1: 7615724ac61c6c96e7fff892bb51a3910abe1f90
+SHA256: a2bb41c78614d201025be9ac595fde85889e0a0ddbfeb7883903e3d621f9322d
+Section: debug
+Priority: optional
+Description: debug symbols for python3-mutf8
+Build-Ids: 4ff4958f5f0611217b438b5049bb286f325b6a03
 
 Package: python3-ntplib
 Version: 0:0.4.0-3~w2d0
@@ -525,16 +560,16 @@ Description: Extension for using SoundDevice for audio playback.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-visionscience
-Version: 0:0.0.5-1~w2d0
+Version: 0:0.0.6-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 487
+Installed-Size: 584
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-psychopy-visionscience_0.0.5-1~w2d0_all.deb
-Size: 111548
-MD5sum: d511b07d4f258a469508fb2d5747f594
-SHA1: c0d4b81b61a9ad7c70bae43eb767193be18e9495
-SHA256: 6101aff5cb278b829bf5f9b08069b024ff8ea4d71e797e5cf6de2230f9c8dce5
+Filename: ./python3-psychopy-visionscience_0.0.6-1~w2d0_all.deb
+Size: 210792
+MD5sum: 87561f2f1b487cc9d37659740b8862d7
+SHA1: 2196e58a5c484d7d9e6e90abb8689cbfc04321cd
+SHA256: f029515ef79d678dd311b785a88c61643afa1e1d6c8bd6f386f19ac1610b8e07
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
