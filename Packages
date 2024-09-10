@@ -560,16 +560,16 @@ Description: Extension for using SoundDevice for audio playback.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-visionscience
-Version: 0:0.0.6-1~w2d0
+Version: 0:0.0.7-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 584
+Installed-Size: 585
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-psychopy-visionscience_0.0.6-1~w2d0_all.deb
-Size: 210792
-MD5sum: 87561f2f1b487cc9d37659740b8862d7
-SHA1: 2196e58a5c484d7d9e6e90abb8689cbfc04321cd
-SHA256: f029515ef79d678dd311b785a88c61643afa1e1d6c8bd6f386f19ac1610b8e07
+Filename: ./python3-psychopy-visionscience_0.0.7-1~w2d0_all.deb
+Size: 210896
+MD5sum: 7e2a15eb882f7e2a816b128bd2f48cd8
+SHA1: c63844533f2c164431943c09c86c8e20993344f5
+SHA256: 52931d367d31fe0520e2f7befdcf5bf347e4e7aea1fb8aaf3c93a590671269dc
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
