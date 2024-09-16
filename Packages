@@ -1,17 +1,17 @@
 Package: hdf5-plugin-lzf
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 55
 Depends: libc6 (>= 2.4)
 Suggests: libhdf5-dev | libhdf5-mpi-dev
 Provides: hdf5-filter-plugin-lzf-openmpi, hdf5-filter-plugin-lzf-serial
-Filename: ./hdf5-plugin-lzf_3.10.0-1~bpo12+1_amd64.deb
-Size: 12148
-MD5sum: aa7cad061642aba4e07da142942e8182
-SHA1: 07ae643f936516a5c155b6aa2bfc9389773d7ca5
-SHA256: 966372e80e08fec2c33793bcfafea7a06bf45da3183135a55e02e41b8c7d793a
+Filename: ./hdf5-plugin-lzf_3.11.0-5~bpo12+1_amd64.deb
+Size: 12408
+MD5sum: fb3e2467cf172a35a1b57f02975eaeae
+SHA1: 865ba609673dda65ce137780e6e79168fb2ec655
+SHA256: b4207769de72cc9311b766effe20e7518278803ac1ea2fd069db1b753b33e788
 Section: python
 Priority: optional
 Multi-Arch: same
@@ -28,17 +28,17 @@ Description: hdf5 plugin to lzf compression library
 
 Package: hdf5-plugin-lzf-dbgsym
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 31
-Depends: hdf5-plugin-lzf (= 3.10.0-1~bpo12+1)
-Filename: ./hdf5-plugin-lzf-dbgsym_3.10.0-1~bpo12+1_amd64.deb
+Depends: hdf5-plugin-lzf (= 3.11.0-5~bpo12+1)
+Filename: ./hdf5-plugin-lzf-dbgsym_3.11.0-5~bpo12+1_amd64.deb
 Size: 7392
-MD5sum: fbcb432afee66457ca13f5de3484441a
-SHA1: e25ebd4b2dd82751c3bfcec9da655ad40ce89c25
-SHA256: b34f8c56d116969f1b38e680253d879262a35991b5fbbd1cda99c9b595c67b0b
+MD5sum: cb84df781111040b1eca7625790c1831
+SHA1: 01bff4a3ae4e8c85002da73070f62c16a298426f
+SHA256: 86feb533c933b6617b556818727de7dea590564e1bef79e943e9ade5c9fb168e
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -64,17 +64,17 @@ Description: Psychology experiment software in Python
 
 Package: python-h5py-doc
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 2296
-Depends: libjs-sphinxdoc (>= 5.2), libjs-mathjax
+Installed-Size: 2485
+Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg), libjs-mathjax
 Built-Using: sphinx (= 5.3.0-4)
-Filename: ./python-h5py-doc_3.10.0-1~bpo12+1_all.deb
-Size: 248716
-MD5sum: d21d1a309f380d6fe65afb428d183031
-SHA1: 18af328f5e9f3aad7a921b1e9daef38ed16c77f5
-SHA256: 4ad40407c9f88e7e946b7030835656dd1db799989e81e07ee28ada42d8eda639
+Filename: ./python-h5py-doc_3.11.0-5~bpo12+1_all.deb
+Size: 251700
+MD5sum: 6e2e304ea1c6f3d5ed36a77f0abe84c5
+SHA1: b7fb5876bb5ff233b5027d0449838adc9520447d
+SHA256: 9a692f0a08dd4c5a17604f1647d9866cf118e551e6cc60415fb5382a3e4310d7
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -206,7 +206,7 @@ Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 031f3aa57b30254f8147f921a5c3
 
 Package: python3-h5py
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 35
@@ -214,11 +214,11 @@ Depends: python3-h5py-serial | python3-h5py-mpi, python3-numpy (>= 1.19.3), pyth
 Suggests: python-h5py-doc
 Breaks: python3-h5py-serial (<< 3.10.0-1~)
 Replaces: python3-h5py-serial (<< 3.10.0-1~)
-Filename: ./python3-h5py_3.10.0-1~bpo12+1_all.deb
-Size: 14436
-MD5sum: 9df4efe0404a0b0d0a7837dd8f117ba5
-SHA1: 26ed480189a65399f4db010e7e137a25e7c7dcd9
-SHA256: b30f04bf86fed9b3995c0b1bf92848f530958c567b2a3f9f72a76bac8d47f214
+Filename: ./python3-h5py_3.11.0-5~bpo12+1_all.deb
+Size: 14684
+MD5sum: ffbc746da2f72eff00f31fd51b394028
+SHA1: efd5fcce3958e135aa970df86bf355fb89edea19
+SHA256: 7977ae2ceb038a06bce8be488e3f28694f3f3a4457f7055492fb61e29be503b9
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
@@ -246,18 +246,18 @@ Description: general-purpose Python interface to hdf5
 
 Package: python3-h5py-mpi
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 3951
+Installed-Size: 3935
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-mpi4py (>= 3.1.4), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-openmpi-103-1 (>= 1.10.7), libhdf5-openmpi-hl-100 (>= 1.8.13), liblzf1 (>= 1.5), libopenmpi3 (>= 4.1.4)
 Recommends: python3-h5py
 Suggests: python-h5py-doc
-Filename: ./python3-h5py-mpi_3.10.0-1~bpo12+1_amd64.deb
-Size: 835336
-MD5sum: f31d1a9c888e16c9c3ff894d3d5679d8
-SHA1: 73c35adec55627b6d0d997f7838cfc1f87111716
-SHA256: f8ae9b7dbd9b8556cf184000d09074183396dfee3665f4a162e4f13cd36ef197
+Filename: ./python3-h5py-mpi_3.11.0-5~bpo12+1_amd64.deb
+Size: 835900
+MD5sum: 05a1b4dbc62380d824c5457dd9bbab86
+SHA1: e6bba15f86efa6560be001d14716ed3e445ce3c3
+SHA256: 57da610dcc9e41c90ecc64e3b489ef055473d70d8813785490e49430a3de53c4
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
@@ -285,37 +285,37 @@ Description: general-purpose Python interface to hdf5 (Python 3 MPI)
 
 Package: python3-h5py-mpi-dbgsym
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 5192
-Depends: python3-h5py-mpi (= 3.10.0-1~bpo12+1)
-Filename: ./python3-h5py-mpi-dbgsym_3.10.0-1~bpo12+1_amd64.deb
-Size: 4450576
-MD5sum: 1002685e2bdf65cd6aba75a7bf79f889
-SHA1: 67cd7a3c02712e4ac4d619f66cb44ce593199328
-SHA256: 6db001b810b79cf57417a4a348e027dca70d9d1a2757c169e549e3acffd53bf7
+Installed-Size: 5189
+Depends: python3-h5py-mpi (= 3.11.0-5~bpo12+1)
+Filename: ./python3-h5py-mpi-dbgsym_3.11.0-5~bpo12+1_amd64.deb
+Size: 4454336
+MD5sum: 9706cb83901e2d237eb28b81bc067dd6
+SHA1: 01b5c5921a1d0d63863cbdcbdfba4af470661e4d
+SHA256: 103883c813d46fa4307b161f7df4ffa3210db02bc162067ed5c2bbc2f7862a57
 Section: debug
 Priority: optional
 Description: debug symbols for python3-h5py-mpi
-Build-Ids: 06820ae814b877ebf1c3af4d396a1c7bc4aec5c7 14b588ab9ef6ffbed363855ec0e1fe604b4c1514 29a9855649590196465a0f0ea907ffe5780fedeb 2d1d2e670076883a7fbc7dd4e5c55191a5b0abd9 37987a192f604c0da7b3e425cee576276c9d87e3 38596f436053b127732595849149ad948dbc17e7 44ff00da18eefeb6eb2c93e21d00b337c5104508 5ee889e1c2618a6c68ae00b2b3764c4df2e83023 5fcd749b662d6458a97b77e2ef130256bed4e8ff 664a8d84882e16350a826083405829987e2df30b 7853f61094d03ed3016e5828123393fe40ca3fb0 7bb4bab5f701f7c6ca7294c9454ff69e46e70baa 83cd35c13458f83d96953a9968c0116fd271c6f7 855773ccba716c1bfcc043222e887dcbd0553a30 9e4af212a1ed12fa7ea97457d298ee757f2496ce a42908a0c34ba8bc3f20eb95f9acd771a8246386 c1494cc818c175a8cf02aacfed7475c260e293e7 c253ab5ccaf2dd17c4ce8bc20c7bcfb4a15f9969 cbc122527d7ddc7a7c323f8329462529fb5c3de8 cc92768fff73cb653acdcab87c5baa925ad18530 e8ca51c7054f922c40ab3d00d48a4fcf8f20779f e967ddfd445e29eb145bbe02829e9965acc0cad2 eef70ee9206402fa2b7dcb8270de5cef697b875a fb8ae8a25040fe60aae968d5ad7c9c2d643a7998
+Build-Ids: 03c177bbecf2c6dce06851187cf0c352fb578fe2 0cb68a14198a4701c194f680028e6263bec8ae37 2c12c16befb3855c1cdf57f3b47d27f00458a4d3 3fe82c906621faae4178b47130634caef05f3125 41b58f7c517adc12bca0f5c7cd5e02625cbe97a4 4deff93e0f38bd9f6eaf203aabc694d003b89599 629ed1980aca705df759240b3edd03100aeca29c 687237ab65abe44e095aff6120b96319f810e0e7 7691e0ac01ffac47505f575fa411ba87e0ca7960 7b2a84325a531d66c14e29088657dc73ec5bedb5 822c4cbd1eb384cf385aa5d5463ee511804651c5 92cc25bf9c5710b7cca9bc2f649a4e0bccf123b1 988ec9cd34e615e742ee9817fb6cabb4952b0077 9f7207f1f96fd2fc7cfc6b76d7d0be6b7a2f98a3 ad9e519dcb3e36d2e2070010740bb4a50f20d28e ae9159dd396a259a64b94539a74c56397f7be19f b66a20cddb0321b8eeae370ee473228258104eb1 b69b93e1ce626d196e205f30fd150f582748100d b92db06cec2374cd146e6f7240e4deaf7533f4ca c250fc2cc8f055ade3aa653a9b2d93908ef6eaff c2738f205159097531c3b49a7ad1433813b15322 d40b0e144e3782f34f5cffc2ed29b9415995d1a5 f0b8472d43248a4ebff42fa8817c902273be5853 fbcffc97e3477a52d02cf48f1c4ee762445524a9
 
 Package: python3-h5py-serial
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 3940
+Installed-Size: 3921
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-103-1, libhdf5-hl-100, liblzf1 (>= 1.5)
 Recommends: python3-h5py
 Suggests: python-h5py-doc
 Conflicts: python3-h5py (<< 2.10.0-3~)
-Filename: ./python3-h5py-serial_3.10.0-1~bpo12+1_amd64.deb
-Size: 830240
-MD5sum: d61c5ab0d9567312ca8860c7b768b96e
-SHA1: 6cc57444b92d72dad1ff6cb0c7ee1d4d0a9a9586
-SHA256: 09fd79f03f9b3761cb726eec0d25265230bacb5f6761a2dcec50d6a73043c675
+Filename: ./python3-h5py-serial_3.11.0-5~bpo12+1_amd64.deb
+Size: 831960
+MD5sum: 38f114b8ff2b82099070672d3023ebb2
+SHA1: f3349e064b86b1ce07065db7ce6824b7b8e3cbfa
+SHA256: ed4fdc4c9b983886cce19751e326ce97afeb861e5197a3624dc11f62ffbcd458
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
@@ -343,21 +343,21 @@ Description: general-purpose Python interface to hdf5 (Python 3 serial)
 
 Package: python3-h5py-serial-dbgsym
 Source: h5py
-Version: 3.10.0-1~bpo12+1
+Version: 3.11.0-5~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 5168
-Depends: python3-h5py-serial (= 3.10.0-1~bpo12+1)
-Filename: ./python3-h5py-serial-dbgsym_3.10.0-1~bpo12+1_amd64.deb
-Size: 4429296
-MD5sum: d9242ad0a20f9dcf1451d2bce23139f3
-SHA1: c090677668a73c44305fa8a7d7d599c4c9cfd6cf
-SHA256: 529644a545b750249eff400dbb202fe95bd822a8b04e6c28878bbfc573e3d767
+Installed-Size: 5173
+Depends: python3-h5py-serial (= 3.11.0-5~bpo12+1)
+Filename: ./python3-h5py-serial-dbgsym_3.11.0-5~bpo12+1_amd64.deb
+Size: 4429900
+MD5sum: 779245a7af6939e2148d522287c04e7d
+SHA1: 1492ac0fba49d498eb3b9825c210fb03978dfcae
+SHA256: 7d212e1df834ea95da77a5cf9e5f3ae0b4461f5ebbf9461e8caed4f5dcb42ceb
 Section: debug
 Priority: optional
 Description: debug symbols for python3-h5py-serial
-Build-Ids: 0532191689f6048291c0c925316d5d8a7717abe5 1e5f0cb64ac27ea80ad78006592882c6de4f26e9 26681b9ecf1f240f5f17a67c3df359bf10c1f955 2ede543e9a498de0893f40cbbd83b546da297eff 349d5b04c69c9f17eb5d6d286c609ec437c9a60d 3e2ca0f8ce3c3fa9f56dd00ac3ea42ae53b753d1 3e530270e294cd7740cdecd78192f080cf12ba32 3f5d4135e341d2d4077efc3c020d3844aad691be 40c931f2be276b600254aad47b61a9f6d2a04c51 4adc45a0e94cebe90c1882b8f42e72bd7e27dd07 502fab7a72d85877632432fd5964a8cbbb1908c5 5c9c8ff784e9f6a59a5bf30bb3d76e1450f2d160 5e6f1b711b7f7b71c8da8a6458c2a89914909704 a6aba7b0c68a0c5bbe5c00fd7dd4e79181606fb0 a6c40516397e6f4d5bca8bf842861afef76da244 a9d57600e693d33bba1783660afd46ee1c416b0b b16cf7a49bf1912b7c1f721486a47261f8c29a3c b85103beff0d294ad7e70d64da2007247b8fc364 bc88557cb7e730092619801a24b20c6f0ca829a3 bf780756f234719e310a5e186257ef4639b529a3 cb84ba9f5feb9019795eef1862f807122406fe45 ce1d7ee4aecd92403f130dc8056a87e8305a4ac1 dab16e45727d2c9555c827b16e3124e1d3f85ebe db267d866d2f781f08645233690d3f771acfa6fa
+Build-Ids: 07d6df86c3544c0d6a9ae95f3c8fbf2b642371d3 17da8aaa61a1fa2cb3a35812265d4a7a005dfe5c 317d3749702b6ef44be519273b84cd314a42bd98 3c41667643dc7a2157365f5017e42f0a8dbe4f35 430a3b27fd4a7fa878d369baa3b2c5b154bbbb3c 5acb4fa1bcfdebf40a1d5a0fcf9e57ffa5d7019e 5c73621b963ec633f211a45d045103f85ad997a4 6080cd5c956a3c2c0d0387d6c217f5aeaf01c730 84b0236d86d42e8df0ca3cefe1c6fd7ae3b63a5c 8bacfc45882d0101bd636cd579a8c18dfe0c6d1c 91453c0b3fa01fc7e9d99bef807051a1cfa3a1d3 a03a4959b9a484bbbfe58929d18f3b76f44195fe a4cf2b20e664a635555bee2c673b6e401e6fa386 a67eb3efe41aac85bbd313b3d83787c45849a520 ac93bda6af28cc5817f3ac12d2638733f314013f afd245d527dc56e59e2166148ed695073d99ad71 b44c20ddfa6806c221aead5992a6525d0073feeb b7d939e9e2893eb3417438f6071c5676e5182b5f c49dadddcb62f5b9aa8f72a40651a14c33f886e6 d5c4ac37bdc6b305d7ae7c9164bf38c8906dc066 d92c338df08b05e5ecb162b121aedbaf8b9785d3 e7296f7345fa70aeae5e1bf825dd3f86e143dad5 edcb06bcef653e642f23265deba7f8ef21e18cfd f19b514cb3a6847f2f9421f4f38c396e0ce98b03
 
 Package: python3-i2mc
 Version: 0:2.2.4-1~w2d0
