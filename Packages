@@ -495,6 +495,54 @@ Priority: optional
 Description: Extension package for PsychoPy which adds support for Brain Products GmbH devices.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-psychopy-eyelink
+Version: 0:2.1.762.3-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 879
+Depends: python3 (>= 3.7~), python3-psychopy-eyelink-coregraphics, python3-sr-research-pylink, python3:any
+Filename: ./python3-psychopy-eyelink_2.1.762.3-1~w2d0_all.deb
+Size: 237076
+MD5sum: 28c3ca4eb84eba27b3ccec267ea90e56
+SHA1: 6d4e1d249d39e72aaf2c8b8e9b4d8ebe448b0fb7
+SHA256: 77f36403e0cec98ffb46549b15f5cbaa7673f775f19db9cc2328ba43232aab56
+Section: python
+Priority: optional
+Description: Extension package for PsychoPy which adds support for EyeLink devices by SR Research.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-psychopy-eyelink-coregraphics
+Version: 0:2.1.762.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 50
+Depends: python3 (>= 3.7~), python3-sr-research-pylink, python3:any
+Filename: ./python3-psychopy-eyelink-coregraphics_2.1.762.0-1~w2d0_all.deb
+Size: 9932
+MD5sum: dbccb172dfd2706e056c49c7b5f992e6
+SHA1: c2326b9e36f949ea19bf67f646c7bb712471636c
+SHA256: 97a87a5baabc3c47eae9f95be06bf75656038140cd38ac729ee718c8a1326b9c
+Section: python
+Priority: optional
+Description: Implementation of the EyeLink core graphics set of handlers for PsychoPy.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-psychopy-eyetracker-sr-research
+Version: 0:0.0.4-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 221
+Depends: python3 (>= 3.7~), python3-sr-research-pylink, python3:any
+Filename: ./python3-psychopy-eyetracker-sr-research_0.0.4-1~w2d0_all.deb
+Size: 36864
+MD5sum: 4c3fae820aefd8e01de2e040039f3d6f
+SHA1: 77e040e064dc6f09fa8f52d98a784abf9c4f2564
+SHA256: d7ffc3707c108ea4790882432d3a8efe884f902bada60a6fd53bc5087f7cc902
+Section: python
+Priority: optional
+Description: Extension package for PsychoPy which adds support for SR Research eyetrackers (via ioHub).
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-psychopy-legacy-mic
 Version: 0:0.0.1.post1-3~w2d0
 Architecture: all
