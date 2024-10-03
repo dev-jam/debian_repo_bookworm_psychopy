@@ -427,6 +427,23 @@ Homepage: https://github.com/azazel75/metapensiero.pj
 Description: Javascript for refined palates: a Python 3 to ES6 Javascript translator
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-moviepy
+Version: 0:2.0.0.dev0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 417
+Depends: python3 (>= 3.7~), python3-decorator (<< 6.0), python3-decorator (>= 4.0.2), python3-imageio (<< 3.0), python3-imageio (>= 2.5), python3-imageio-ffmpeg (>= 0.2.0), python3-numpy (>= 1.17.3), python3-proglog (<= 1.0.0-+), python3:any
+Filename: ./python3-moviepy_2.0.0.dev0-1~w2d0_all.deb
+Size: 86176
+MD5sum: c9fb77a2ae101c2cd9a89ae732241603
+SHA1: ca9eb77bc9648c52439102b9afedea18a6f78711
+SHA256: f49e8454efeb0f7f8d9ef099af961316d95702bb33df0aaef881f39f41fdf9ca
+Section: python
+Priority: optional
+Homepage: https://zulko.github.io/moviepy/
+Description: Video editing with Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-mutf8
 Version: 0:1.0.6-1~w2d0
 Architecture: amd64
