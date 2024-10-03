@@ -360,16 +360,16 @@ Description: debug symbols for python3-h5py-serial
 Build-Ids: 07d6df86c3544c0d6a9ae95f3c8fbf2b642371d3 17da8aaa61a1fa2cb3a35812265d4a7a005dfe5c 317d3749702b6ef44be519273b84cd314a42bd98 3c41667643dc7a2157365f5017e42f0a8dbe4f35 430a3b27fd4a7fa878d369baa3b2c5b154bbbb3c 5acb4fa1bcfdebf40a1d5a0fcf9e57ffa5d7019e 5c73621b963ec633f211a45d045103f85ad997a4 6080cd5c956a3c2c0d0387d6c217f5aeaf01c730 84b0236d86d42e8df0ca3cefe1c6fd7ae3b63a5c 8bacfc45882d0101bd636cd579a8c18dfe0c6d1c 91453c0b3fa01fc7e9d99bef807051a1cfa3a1d3 a03a4959b9a484bbbfe58929d18f3b76f44195fe a4cf2b20e664a635555bee2c673b6e401e6fa386 a67eb3efe41aac85bbd313b3d83787c45849a520 ac93bda6af28cc5817f3ac12d2638733f314013f afd245d527dc56e59e2166148ed695073d99ad71 b44c20ddfa6806c221aead5992a6525d0073feeb b7d939e9e2893eb3417438f6071c5676e5182b5f c49dadddcb62f5b9aa8f72a40651a14c33f886e6 d5c4ac37bdc6b305d7ae7c9164bf38c8906dc066 d92c338df08b05e5ecb162b121aedbaf8b9785d3 e7296f7345fa70aeae5e1bf825dd3f86e143dad5 edcb06bcef653e642f23265deba7f8ef21e18cfd f19b514cb3a6847f2f9421f4f38c396e0ce98b03
 
 Package: python3-i2mc
-Version: 0:2.2.4-1~w2d0
+Version: 0:2.2.5-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 99
+Installed-Size: 100
 Depends: python3-matplotlib, python3-numpy, python3-pandas, python3-scipy, python3:any
-Filename: ./python3-i2mc_2.2.4-1~w2d0_all.deb
-Size: 21164
-MD5sum: a084ac0ed7333b575314d87e0f3198eb
-SHA1: cfdbb3e82babccd695129e0baee286fcf23109b2
-SHA256: 88a56a4f4e5a21b8c3bbf2b6fc006269d88ff59da4335a526155b201d746634c
+Filename: ./python3-i2mc_2.2.5-1~w2d0_all.deb
+Size: 21436
+MD5sum: 260c9d51bac123276e2bc369ec99546c
+SHA1: 4d6aa0e61b5d85cab2f4f9d26637d18216c5f569
+SHA256: ee7e1544db64131d22c663c9ca043d13e3be6aaa78b267b21b541748d0ff0de0
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/I2MC_Python
