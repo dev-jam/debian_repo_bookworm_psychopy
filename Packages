@@ -170,16 +170,16 @@ Description: ECMAScript parsing infrastructure for multipurpose analysis in Pyth
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-ffpyplayer
-Version: 0:4.5.1-1~w2d0
+Version: 0:4.5.2-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 48489
+Installed-Size: 82590
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-ffpyplayer_4.5.1-1~w2d0_amd64.deb
-Size: 14992568
-MD5sum: 2b091623677f4fa722aa79cfea926889
-SHA1: 686156cafe665111e82e72455261bb89073a515b
-SHA256: a6c7c44735db28c17cfb689027bc7ecee379005ad6df01bfb454718bd0da0dd2
+Filename: ./python3-ffpyplayer_4.5.2-1~w2d0_amd64.deb
+Size: 22165952
+MD5sum: 42f9d78a795c964ad3dab72b34f8866b
+SHA1: 37557052b5ea1879457793e1211c367f926e4c0b
+SHA256: ee8f4e554cb3946435d9c4e2ef76214775c50d84848dc975d62750b8138988ed
 Section: python
 Priority: optional
 Homepage: https://matham.github.io/ffpyplayer/
@@ -377,16 +377,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 0:2.35.1-1~w2d0
+Version: 0:2.36.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1189
-Depends: python3 (>= 3.8~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.35.1-1~w2d0_all.deb
-Size: 229544
-MD5sum: b8498c8c8f148528b60c16ff919d62eb
-SHA1: 1858b9a646b77c862097d79e05de6a62c1dc1516
-SHA256: c8be704dcd3b9c5810780d4dde99d9094889a80c653647dfee97b433538b957a
+Installed-Size: 1190
+Depends: python3 (>= 3.9~), python3-numpy, python3-pil (>= 8.3.2), python3:any
+Filename: ./python3-imageio_2.36.0-1~w2d0_all.deb
+Size: 229536
+MD5sum: 702efbe65bdf437dd50f175254f22043
+SHA1: bc448f4ee36c1592df85716cbe05d2d68b396567
+SHA256: 6626786584289d621bde996c878098450b4d27a4e6649ee6f2a74b4a460e241f
 Section: python
 Priority: optional
 Homepage: https://github.com/imageio/imageio
