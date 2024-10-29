@@ -513,32 +513,32 @@ Description: Extension package for PsychoPy which adds support for Brain Product
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-eyelink
-Version: 0:2.1.762.4-1~w2d0
+Version: 0:2.1.1179.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 880
 Depends: python3 (>= 3.7~), python3-psychopy-eyelink-coregraphics, python3-sr-research-pylink, python3:any
-Filename: ./python3-psychopy-eyelink_2.1.762.4-1~w2d0_all.deb
+Filename: ./python3-psychopy-eyelink_2.1.1179.0-1~w2d0_all.deb
 Size: 237060
-MD5sum: 4b0bfd3dfa3b186a4261461a622469c8
-SHA1: cdd73ec1467b41d49482bc524758961ae8702a69
-SHA256: 3ae5ab5e638f2c380d98d1a5d37db56a4f9da4f581a8c3b53be382584612c2b2
+MD5sum: fa9eeba5930f4d862316d4f221c068b0
+SHA1: ab4b2f1604b99a951991d5d3ea8c2ced573f2455
+SHA256: a23d72cd3a31df637d3a14ae8bc33f812885afe0c50b1a6dbb62bb8dc99ebeae
 Section: python
 Priority: optional
 Description: Extension package for PsychoPy which adds support for EyeLink devices by SR Research.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-eyelink-coregraphics
-Version: 0:2.1.762.1-1~w2d0
+Version: 0:2.1.1179.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 50
 Depends: python3 (>= 3.7~), python3-sr-research-pylink, python3:any
-Filename: ./python3-psychopy-eyelink-coregraphics_2.1.762.1-1~w2d0_all.deb
-Size: 9920
-MD5sum: 1c2380e817619ad76299dccfbe279450
-SHA1: 914020e0f440ef8a378d48097e50d3ee39d0d521
-SHA256: ac4f02b112984cc057f1560ef0f30bba4a2326efce7ec9575bb193c76d188803
+Filename: ./python3-psychopy-eyelink-coregraphics_2.1.1179.0-1~w2d0_all.deb
+Size: 9928
+MD5sum: d7d7ea27c9955f72f9da3df48238cbfa
+SHA1: a93e82017f74de0a08d60b162460abec5960d55e
+SHA256: bc64b20f9b680ebd9ff3fd9edf097a2f1baec29aab8b05147e5e90f3ae712557
 Section: python
 Priority: optional
 Description: Implementation of the EyeLink core graphics set of handlers for PsychoPy.
