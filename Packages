@@ -81,6 +81,23 @@ Description: documentation for h5py
  .
  This package provides the documentation.
 
+Package: python3-egi-pynetstation
+Version: 0:1.0.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 141
+Depends: python3 (>= 3.8~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
+Filename: ./python3-egi-pynetstation_1.0.1-1~w2d0_all.deb
+Size: 26188
+MD5sum: 4a947134cb971ad5417949a44a4754a4
+SHA1: 673b07a215b3d5e0bc6077fce31864ba8b3a195e
+SHA256: b238bdc38db65c3c96f00c73a53b3d34109e30dece687a805111360d091fe494
+Section: python
+Priority: optional
+Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
+Description: Magstim-EGI EEG amplifier NetStation API
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-esprima
 Version: 0:4.0.1-3~w2d0
 Architecture: all
@@ -497,6 +514,23 @@ SHA256: 52931d367d31fe0520e2f7befdcf5bf347e4e7aea1fb8aaf3c93a590671269dc
 Section: python
 Priority: optional
 Description: Stimuli useful for vision scientists.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-pypi-search
+Version: 0:2.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 40
+Depends: python3-bs4 (>= 4.9.2), python3-html2text (>= 2020.1.16), python3-requests (>= 2.22.0), python3:any
+Filename: ./python3-pypi-search_2.0-1~w2d0_all.deb
+Size: 6992
+MD5sum: 275829d23a8c55e2c1ee8a8c95746ce9
+SHA1: 79343489f75733260728c907099b76d52e3bc3ea
+SHA256: 6bcd5e3903c289e5b4fe279b8f72fcb8a39cfb6674c911b8d9d976a10a47b6c5
+Section: python
+Priority: optional
+Homepage: https://github.com/asadmoosvi/pypi-search
+Description: Get Information on Python Packages From PyPI
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
