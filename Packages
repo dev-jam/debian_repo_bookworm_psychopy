@@ -598,16 +598,16 @@ Description: Titta is a toolbox for using eye trackers from Tobii with Python, s
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
-Version: 0:1.3.2-1~w2d0
+Version: 0:1.4.2-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 23171
+Installed-Size: 23311
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any
-Filename: ./python3-tittapy_1.3.2-1~w2d0_amd64.deb
-Size: 5580724
-MD5sum: 17ab03adcbb19c0b5cc5f3eeca9bb72a
-SHA1: e20ed757ea0f2a12df964526c46767a59b222a65
-SHA256: 13fc3810370aa800dbca0073afb5c08f15c923e1da2302fc3484773475b686b6
+Filename: ./python3-tittapy_1.4.2-1~w2d0_amd64.deb
+Size: 5587800
+MD5sum: 5566de487319a7c8c13e620c604604cc
+SHA1: a7f0e988c19606e6f358f690ca730d207ec53685
+SHA256: be97a1c80ec573d0b84ba5c7b8333d454fd0df6f17814b8f449340c47bd7f5f3
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/Titta
