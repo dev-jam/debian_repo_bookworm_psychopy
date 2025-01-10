@@ -1,17 +1,17 @@
 Package: hdf5-plugin-lzf
 Source: h5py
-Version: 3.11.0-7~bpo12+1
+Version: 3.12.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 55
 Depends: libc6 (>= 2.4)
 Suggests: libhdf5-dev | libhdf5-mpi-dev
 Provides: hdf5-filter-plugin-lzf-openmpi, hdf5-filter-plugin-lzf-serial
-Filename: ./hdf5-plugin-lzf_3.11.0-7~bpo12+1_amd64.deb
-Size: 12488
-MD5sum: 1c57319f26b8413a655a6b4822971688
-SHA1: 70897dfb1e1b745bfdb90f1a1842f53abbd97fdf
-SHA256: 3c80d2dd1048cc9e0981d262c21f0bd917f9c178dc2f3f1d83e6c264a8ef765f
+Filename: ./hdf5-plugin-lzf_3.12.1-1~bpo12+1_amd64.deb
+Size: 12716
+MD5sum: 0ce87186c0d4b1b1d0807a661f311cc9
+SHA1: ed12b456f9477993a0791edc0c046a27e991964a
+SHA256: 616a78e459554fb5441e26ae977d89dc574b6e2bbb61ac3f49353e0d87a0b80c
 Section: python
 Priority: optional
 Multi-Arch: same
@@ -45,17 +45,17 @@ Description: Psychology experiment software in Python
 
 Package: python-h5py-doc
 Source: h5py
-Version: 3.11.0-7~bpo12+1
+Version: 3.12.1-1~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 2485
+Installed-Size: 2515
 Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg), libjs-mathjax
 Built-Using: sphinx (= 5.3.0-4)
-Filename: ./python-h5py-doc_3.11.0-7~bpo12+1_all.deb
-Size: 251948
-MD5sum: 7b2c5726229a94a699d31f49ae6a5db4
-SHA1: b2fc855edc090750a7b2a5094543bfdb458a1352
-SHA256: 2327ab214bed081347ab64429e733f22cf76f4852df69d6507e724a64229a3da
+Filename: ./python-h5py-doc_3.12.1-1~bpo12+1_all.deb
+Size: 254080
+MD5sum: a76bd21bb90a9fd3db34965b27764b82
+SHA1: c614e3095a59e15d8deaf403b67c3bcaf4581d73
+SHA256: 6407ef0584f7ac3b852e3c72643851af63d5d6613d590e02239ebdd5a5600692
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -176,7 +176,7 @@ Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 031f3aa57b30254f8147f921a5c3
 
 Package: python3-h5py
 Source: h5py
-Version: 3.11.0-7~bpo12+1
+Version: 3.12.1-1~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 35
@@ -184,11 +184,11 @@ Depends: python3-h5py-serial | python3-h5py-mpi, python3-numpy (>= 1.19.3), pyth
 Suggests: python-h5py-doc
 Breaks: python3-h5py-serial (<< 3.10.0-1~)
 Replaces: python3-h5py-serial (<< 3.10.0-1~)
-Filename: ./python3-h5py_3.11.0-7~bpo12+1_all.deb
-Size: 14784
-MD5sum: 23693e74fd921fbe00f6ce8e5b7dd8fa
-SHA1: fe96a7ea40d703557004edcece847882f4667982
-SHA256: cfa019828e2a8bf6ecc112ad94a01394a43488d6f16dad282d21a675e5485a26
+Filename: ./python3-h5py_3.12.1-1~bpo12+1_all.deb
+Size: 15000
+MD5sum: d36f9a3a447aa95f5b6b45bda539ffc0
+SHA1: 928dab18e540b5dfcd03f6bb57a15f6ab75107c2
+SHA256: a42e364f0f34c99ae4d1e5edb57c9fc526d2753bd21d72b266ac04ce6cac130d
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
@@ -216,18 +216,18 @@ Description: general-purpose Python interface to hdf5
 
 Package: python3-h5py-mpi
 Source: h5py
-Version: 3.11.0-7~bpo12+1
+Version: 3.12.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 3935
+Installed-Size: 3959
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-mpi4py (>= 3.1.4), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-openmpi-103-1 (>= 1.10.7), libhdf5-openmpi-hl-100 (>= 1.8.13), liblzf1 (>= 1.5), libopenmpi3 (>= 4.1.4)
 Recommends: python3-h5py
 Suggests: python-h5py-doc
-Filename: ./python3-h5py-mpi_3.11.0-7~bpo12+1_amd64.deb
-Size: 835980
-MD5sum: 94629e30f5ab0fee5d6fc3821106159f
-SHA1: 68bbed689f4b7248055c975f84ffaab68d514d24
-SHA256: 6bcf3eecad5f5a7647bd94d5d7547dec111461d78ab4467e37ab273bd135774b
+Filename: ./python3-h5py-mpi_3.12.1-1~bpo12+1_amd64.deb
+Size: 841448
+MD5sum: 071a4963ec948caacef186d04e46d42e
+SHA1: 870edeac4a051130efcf1eef19d8c05b2f8fd267
+SHA256: 62efe1b83cd1ca58eca26302870b0336fc141aa0275ba85e1d8ca7ffdf4f36e0
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
@@ -255,19 +255,19 @@ Description: general-purpose Python interface to hdf5 (Python 3 MPI)
 
 Package: python3-h5py-serial
 Source: h5py
-Version: 3.11.0-7~bpo12+1
+Version: 3.12.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 3921
+Installed-Size: 3946
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1:1.22.0), python3-numpy-abi9, python3:any, libc6 (>= 2.14), libhdf5-103-1, libhdf5-hl-100, liblzf1 (>= 1.5)
 Recommends: python3-h5py
 Suggests: python-h5py-doc
 Conflicts: python3-h5py (<< 2.10.0-3~)
-Filename: ./python3-h5py-serial_3.11.0-7~bpo12+1_amd64.deb
-Size: 832648
-MD5sum: d309b48de5167fc0b2e2353f6c9d3e5c
-SHA1: 32c42f3a5d73cee11c0f9d1abda050d50866f166
-SHA256: 595d5985d9e43fbaff1d4a8f8cae33a49108229859c3d7941ae9bf94f0c6aaf5
+Filename: ./python3-h5py-serial_3.12.1-1~bpo12+1_amd64.deb
+Size: 836452
+MD5sum: c69df6954fcfdbec6ceb78e19b4a4c92
+SHA1: b8598e0ef63ba6e28e05985e85e00928702de698
+SHA256: 94a4d2968d95d10ffb75b540cc92b1b48ad8e0c138df8300ba08c221ebe419b4
 Section: python
 Priority: optional
 Homepage: https://www.h5py.org/
