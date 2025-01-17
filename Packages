@@ -105,6 +105,23 @@ Description: documentation for imageio
  .
  This package provides the documentation.
 
+Package: python3-dukpy
+Version: 0:0.2.3-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 5738
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-dukpy_0.2.3-1~w2d0_amd64.deb
+Size: 939812
+MD5sum: 2c5f1375303b65c303bb34e9393b5554
+SHA1: 94e1ffacb458821b158c3a78c46863238b1d0bd0
+SHA256: 68d3090b21a0782fbc57600ece54ee0b021520220fa6b1b4916fd6554f74f131
+Section: python
+Priority: optional
+Homepage: https://github.com/amol-/dukpy
+Description: Simple JavaScript interpreter for Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-egi-pynetstation
 Version: 0:1.0.1-1~w2d0
 Architecture: all
