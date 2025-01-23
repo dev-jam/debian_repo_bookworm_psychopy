@@ -328,21 +328,27 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-imageio
-Version: 1:2.37.0-1~w2d0
+Source: python-imageio
+Version: 2.36.1-1~bpo12+1
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1191
-Depends: python3 (>= 3.9~), python3-numpy, python3-pil (>= 8.3.2), python3:any
-Filename: ./python3-imageio_2.37.0-1~w2d0_all.deb
-Size: 229820
-MD5sum: 0d60bed35dfb4934ee874f1c4dd9dafa
-SHA1: 34bd78f93d8b1ad4778123445d8fa8d3bf5f6cba
-SHA256: 07f343c01ad7794c4fa5f80256b93a8ab6fd8ef8a84ca74bda08f5379afc430b
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1185
+Depends: python3-numpy, python3-pil, python3:any
+Suggests: python-imageio-doc, python3-astropy, python3-gdal, ffmpeg
+Filename: ./python3-imageio_2.36.1-1~bpo12+1_all.deb
+Size: 228568
+MD5sum: d9f7d333add8b71439752061de8d6134
+SHA1: 9285bb730e84d1d286d4739f048c93e5189b9b6e
+SHA256: 2f092bf8d8b9f616c90d09c643fab5521effc59cedc42bbcba3d89869bc1381b
 Section: python
 Priority: optional
-Homepage: https://github.com/imageio/imageio
-Description: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
- This package was automatically generated from the upstream wheel by wheel2deb.
+Homepage: https://imageio.github.io/
+Description: library for reading and writing image data (Python 3)
+ Imageio is a Python library that provides an easy interface to read and write
+ a wide range of image data, including animated images, video, volumetric data,
+ and scientific formats.
+ .
+ This package provides the library for Python 3.
 
 Package: python3-imageio-ffmpeg
 Version: 1:0.6.0-1~w2d0
