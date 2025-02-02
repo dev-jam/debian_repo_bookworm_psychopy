@@ -83,17 +83,17 @@ Description: documentation for h5py
 
 Package: python-imageio-doc
 Source: python-imageio
-Version: 2.36.1-1~bpo12+1
+Version: 2.37.0-1~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 5460
+Installed-Size: 5462
 Depends: libjs-sphinxdoc (>= 5.2)
 Built-Using: sphinx (= 5.3.0-4)
-Filename: ./python-imageio-doc_2.36.1-1~bpo12+1_all.deb
-Size: 1424812
-MD5sum: 018bb1968c8e72e52e01be973ebcbbe9
-SHA1: d6ffc746df481422f6be6f5252f66abaf3ecba95
-SHA256: 564bb12c026e9589cafd3142d5a56eda711a584fec13960be0b2f86b08b664cb
+Filename: ./python-imageio-doc_2.37.0-1~bpo12+1_all.deb
+Size: 1424844
+MD5sum: 09d2df33db3a4c8da9328d4494b8a817
+SHA1: e2282736ff94c2b65d644a3ead1535f840725c80
+SHA256: f2ff774d25024fa5cd675f0c8157d2200c70b4026bd467af294782d80cc9675f
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -329,17 +329,17 @@ Description: Noise-robust fixation classification (I2MC).
 
 Package: python3-imageio
 Source: python-imageio
-Version: 2.36.1-1~bpo12+1
+Version: 2.37.0-1~bpo12+1
 Architecture: all
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 1185
+Installed-Size: 1186
 Depends: python3-numpy, python3-pil, python3:any
 Suggests: python-imageio-doc, python3-astropy, python3-gdal, ffmpeg
-Filename: ./python3-imageio_2.36.1-1~bpo12+1_all.deb
-Size: 228568
-MD5sum: d9f7d333add8b71439752061de8d6134
-SHA1: 9285bb730e84d1d286d4739f048c93e5189b9b6e
-SHA256: 2f092bf8d8b9f616c90d09c643fab5521effc59cedc42bbcba3d89869bc1381b
+Filename: ./python3-imageio_2.37.0-1~bpo12+1_all.deb
+Size: 228904
+MD5sum: 4fdf83c4ecc9542aa942036b08eb01c3
+SHA1: 218eeb88f29dc2deecfb65698b0e5ecedfc4c50a
+SHA256: 8c458b1e8a13e4a6696251701730721b702d7ac95faa6bfd8326f61a53e43b8b
 Section: python
 Priority: optional
 Homepage: https://imageio.github.io/
