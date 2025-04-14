@@ -485,19 +485,19 @@ Description: Implementation of the EyeLink core graphics set of handlers for Psy
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-eyetracker-sr-research
-Version: 0:0.0.4-1~w2d0
+Version: 0:0.0.5-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 221
-Depends: python3 (>= 3.7~), python3-sr-research-pylink, python3:any
-Filename: ./python3-psychopy-eyetracker-sr-research_0.0.4-1~w2d0_all.deb
-Size: 36864
-MD5sum: 4c3fae820aefd8e01de2e040039f3d6f
-SHA1: 77e040e064dc6f09fa8f52d98a784abf9c4f2564
-SHA256: d7ffc3707c108ea4790882432d3a8efe884f902bada60a6fd53bc5087f7cc902
+Installed-Size: 229
+Depends: python3:any
+Filename: ./python3-psychopy-eyetracker-sr-research_0.0.5-1~w2d0_all.deb
+Size: 38148
+MD5sum: d9845af63e07ea5d72424bf2e562ba6f
+SHA1: 4fadc5535920607b6ff78eb9b8505cd7852e17eb
+SHA256: 880de5265e438dc90ee87961d717f4356e6889d9621b36de343451fe92493bbf
 Section: python
 Priority: optional
-Description: Extension package for PsychoPy which adds support for SR Research eyetrackers (via ioHub).
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychopy-legacy-mic
