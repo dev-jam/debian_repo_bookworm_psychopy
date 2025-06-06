@@ -105,6 +105,23 @@ Description: documentation for imageio
  .
  This package provides the documentation.
 
+Package: python3-astunparse
+Version: 0:1.6.3-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 64
+Depends: python3 (>= 3.5~), python3-six (<< 2.0), python3-six (>= 1.6.1), python3-wheel (<< 1.0), python3-wheel (>= 0.23.0), python3:any
+Filename: ./python3-astunparse_1.6.3-1~w2d0_all.deb
+Size: 12336
+MD5sum: f9cb8e7612d86ce99b4e118496381f02
+SHA1: 60300df81b98e0dd7df5785e79930ece5c71f122
+SHA256: 9c4a65787872481c98cdb875734a568ad76552b870391319b432dec1835ca03b
+Section: python
+Priority: optional
+Homepage: https://github.com/simonpercivall/astunparse
+Description: An AST unparser for Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-dukpy
 Version: 0:0.2.3-1~w2d0
 Architecture: amd64
